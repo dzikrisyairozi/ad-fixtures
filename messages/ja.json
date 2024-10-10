@@ -1,0 +1,38 @@
+{
+    "header": {
+      "about": "关于",
+      "solution": "解决方案",
+      "contactUs": "联系我们"
+    },
+    "Index": {
+      "logoAlt": "Next.js 标志",
+      "whyWorkWithUs": "为什么选择我们",
+      "slogan": "不仅制造，我们工程"
+    },
+    "Footer": {
+        "companyName": "AD Fixtures株式会社",
+        "address": "台湾台中市太平区建功街68号 411034",
+        "discoverUs": "私たちについて",
+        "ourStory": "私たちの物語",
+        "brandPartners": "ブランドパートナー",
+        "blog": "ブログ",
+        "giftVoucher": "ギフト券",
+        "customerServices": "カスタマーサービス",
+        "contactUs": "お問い合わせ",
+        "faqs": "よくある質問",
+        "warranty": "保証",
+        "ourGuarantee": "当社の保証",
+        "returnPolicy": "返品ポリシー",
+        "legal": "法的情報",
+        "termsOfService": "利用規約",
+        "termsAndConditions": "利用条件",
+        "termsOfWebsiteUse": "ウェブサイト利用規約",
+        "privacyPolicy": "プライバシーポリシー",
+        "accessibilityStatement": "アクセシビリティ声明",
+        "commercial": "商業パートナーシップ",
+        "distributionPartners": "販売パートナー",
+        "volumeDiscounts": "数量割引",
+        "wholesaleInquiries": "卸売のお問い合わせ",
+        "allRightsReserved": "All rights reserved."
+      }
+  }
