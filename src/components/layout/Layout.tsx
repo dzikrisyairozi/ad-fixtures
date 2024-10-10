@@ -4,6 +4,7 @@ import BaseDialog from '@/components/dialog/BaseDialog';
 
 import useDialogStore from '@/store/useDialogStore';
 import Header from './Header';
+import Footer from './Footer';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   //#region  //*=========== Store ===========
@@ -15,8 +16,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <div>
-    <Header />
-      {children}
+      <Header />
+      <main className="flex-grow">{children}</main>
+      <Footer />
       <BaseDialog
         onClose={handleClose}
         onSubmit={handleSubmit}
