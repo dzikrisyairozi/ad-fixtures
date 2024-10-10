@@ -1,0 +1,38 @@
+{
+    "header": {
+      "about": "ABOUT",
+      "solution": "SOLUTION",
+      "contactUs": "CONTACT US"
+    },
+    "Index": {
+        "logoAlt": "Next.js logo",
+        "whyWorkWithUs": "WHY WORK WITH US",
+        "slogan": "NOT ONLY MAKE, WE ENGINEERING"
+    },
+    "Footer": {
+        "companyName": "AD Fixtures Inc.",
+        "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",
+        "discoverUs": "Discover Us",
+        "ourStory": "Our Story",
+        "brandPartners": "Brand Partners",
+        "blog": "Blog",
+        "giftVoucher": "Gift Voucher",
+        "customerServices": "Customer Services",
+        "contactUs": "Contact Us",
+        "faqs": "FAQs",
+        "warranty": "Warranty",
+        "ourGuarantee": "Our Guarantee",
+        "returnPolicy": "Return Policy",
+        "legal": "Legal",
+        "termsOfService": "Terms of Service",
+        "termsAndConditions": "Terms and Conditions",
+        "termsOfWebsiteUse": "Terms of Website Use",
+        "privacyPolicy": "Privacy Policy",
+        "accessibilityStatement": "Accessibility Statement",
+        "commercial": "Commercial",
+        "distributionPartners": "Distribution Partners",
+        "volumeDiscounts": "Volume Discounts",
+        "wholesaleInquiries": "Wholesale Inquiries",
+        "allRightsReserved": "All rights reserved."
+      }
+  }

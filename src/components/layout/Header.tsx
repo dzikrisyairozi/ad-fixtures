@@ -2,27 +2,37 @@ import * as React from "react";
 import { useRef, useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-
 import UnstyledLink from "@/components/links/UnstyledLink";
 import Image from "next/image";
+import { useRouter } from 'next/router';
+import { useTranslations } from "next-intl";
 
-const links = [
-  { href: "#about", label: "ABOUT" },
-  { href: "#solution", label: "SOLUTION" },
-  { href: "#contact", label: "CONTACT US" },
-];
 
 const languages = [
-  { code: "EN", flag: "/images/flags/uk.png" },
-  { code: "CN", flag: "/images/flags/cn.png" },
-  { code: "JP", flag: "/images/flags/jp.png" },
+    { code: "en", flag: "/images/flags/en.png" },
+    { code: "zh", flag: "/images/flags/zh.png" },
+    { code: "ja", flag: "/images/flags/jp.png" },
 ];
 
-export default function Header() {
-  const [currentLang, setCurrentLang] = useState(languages[0]);
+export default function Header({ locale }: { locale: string }) {
+  const router = useRouter();
+  const t = useTranslations('header');
+  const [currentLang, setCurrentLang] = useState(languages.find(lang => lang.code === router.locale) || languages[0]);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
   const langMenuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const currentLocale = router.locale || locale;
+    setCurrentLang(languages.find(lang => lang.code === currentLocale) || languages[0]);
+    // console.log('Locale changed:', currentLocale);
+  }, [router.locale, locale]);
+
+  const links = [
+    { href: "#about", label: t('about') },
+    { href: "#solution", label: t('solution') },
+    { href: "#contact", label: t('contactUs') },
+  ];
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -37,8 +47,13 @@ export default function Header() {
     };
   }, []);
 
+  const handleLanguageChange = (lang: typeof languages[0]) => {
+    setCurrentLang(lang);
+    router.push(router.pathname, router.asPath, { locale: lang.code });
+  };
+  
   return (
-    <header className="sticky top-0 z-50 bg-[#141414] text-white">
+    <header className="sticky top-0 z-50 bg-[#141414]/95 text-white">
     {/* <header className="sticky top-0 z-50 bg-header-fade text-white"> */}
       <div className="layout flex h-[100px] items-center justify-between p-8">
         <UnstyledLink href="/" className="font-bold hover:text-gray-300">
@@ -88,9 +103,9 @@ export default function Header() {
                         key={lang.code}
                         className="flex items-center justify-center w-full p-2"
                         onClick={() => {
-                          setCurrentLang(lang);
-                          setIsLangMenuOpen(false);
-                        }}
+                            handleLanguageChange(lang);
+                            setIsLangMenuOpen(false);
+                          }}
                         whileHover={{ backgroundColor: "#333" }}
                       >
                         <Image
