@@ -3,6 +3,7 @@ import * as React from 'react';
 import BaseDialog from '@/components/dialog/BaseDialog';
 
 import useDialogStore from '@/store/useDialogStore';
+import Header from './Header';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   //#region  //*=========== Store ===========
@@ -14,6 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <div>
+    <Header />
       {children}
       <BaseDialog
         onClose={handleClose}

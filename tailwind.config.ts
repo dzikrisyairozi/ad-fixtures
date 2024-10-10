@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'header-fade': 'linear-gradient(to bottom, #141414 25%, rgba(20, 20, 20, 0))',
+      },
     },
   },
   plugins: [],
