@@ -53,7 +53,7 @@ export default function Header({ locale }: { locale: string }) {
   };
   
   return (
-    <header className="sticky top-0 z-50 bg-[#141414]/95 text-white">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-header-fade text-white">
     {/* <header className="sticky top-0 z-50 bg-header-fade text-white"> */}
       <div className="layout flex h-[100px] items-center justify-between p-8">
         <UnstyledLink href="/" className="font-bold hover:text-gray-300">

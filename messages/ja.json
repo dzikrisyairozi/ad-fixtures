@@ -5,9 +5,10 @@
       "contactUs": "联系我们"
     },
     "Index": {
-      "logoAlt": "Next.js 标志",
-      "whyWorkWithUs": "为什么选择我们",
-      "slogan": "不仅制造，我们工程"
+        "companyName": "AD フィクスチャーズ株式会社",
+        "factoryImageAlt": "工場画像 {number}",
+        "slogan": "カスタム製造だけでなく、プロセス中に適切なエンジニアリング提案をクライアントに提供します。クライアントの最大利益を得るよう努めています。",
+        "shopNow": "今すぐ購入"
     },
     "Footer": {
         "companyName": "AD Fixtures株式会社",

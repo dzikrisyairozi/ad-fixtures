@@ -5,9 +5,10 @@
       "contactUs": "CONTACT US"
     },
     "Index": {
-        "logoAlt": "Next.js logo",
-        "whyWorkWithUs": "WHY WORK WITH US",
-        "slogan": "NOT ONLY MAKE, WE ENGINEERING"
+        "companyName": "AD FIXTURES INC.",
+        "factoryImageAlt": "Factory image {number}",
+        "slogan": "BESIDES CUSTOM MANUFACTURING, WE WILL PROVIDE CLIENTS WITH PROPER ENGINEERING SUGGESTIONS DURING THE PROCESS. WE TRY TO EARN THE MAXIMUM BENEFIT FOR CLIENTS.",
+        "shopNow": "SHOP NOW"
     },
     "Footer": {
         "companyName": "AD Fixtures Inc.",
