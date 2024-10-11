@@ -9,7 +9,10 @@ const nextConfig = {
   i18n: {
     locales: ['en', 'zh', 'ja'],
     defaultLocale: 'en'
-  }
+  },
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
 };
 
 export default withNextIntl(nextConfig);
