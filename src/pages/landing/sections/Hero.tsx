@@ -68,6 +68,18 @@ function Hero() {
           {t('shopNow')}
         </motion.button>
       </div>
+      <div className="absolute md:bottom-8 lg:bottom-16 right-0 transform -translate-x-1/2 hidden md:flex space-x-2">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentImage(index)}
+              className={`w-3 h-3 rounded-full ${
+                index === currentImage ? 'bg-white' : 'bg-transparent border border-white'
+              } transition-colors duration-300`}
+              aria-label={`Go to image ${index + 1}`}
+            />
+          ))}
+        </div>
       </section>
     );
   }
