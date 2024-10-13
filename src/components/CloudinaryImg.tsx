@@ -67,15 +67,17 @@ export default function CloudinaryImg({
 
   const RESIZE_MAX_WIDTH = 1000;
   const resizedToMaxWidth = mdx && +width >= RESIZE_MAX_WIDTH;
+  const isFill = width === '100%' && height === '100%';
 
   return (
     <figure
       className={clsx(className, {
         'overflow-hidden rounded shadow dark:shadow-none': !noStyle,
-        'mx-auto w-full': mdx && +width <= 800,
+        'mx-auto w-full': mdx && !isFill && +width <= 800,
+        'relative w-full h-full': isFill,
       })}
       style={{
-        ...(mdx && +width <= 800 ? { maxWidth: width } : {}),
+        ...(mdx && !isFill && +width <= 800 ? { maxWidth: width } : {}),
         ...style,
       }}
       {...rest}
@@ -83,10 +85,12 @@ export default function CloudinaryImg({
       <div
         style={{
           position: 'relative',
-          height: 0,
-          paddingTop: aspectRatio
-            ? `${aspectRatio * 100}%`
-            : `${(+height / +width) * 100}%`,
+          height: isFill ? '100%' : 0,
+          paddingTop: !isFill
+            ? aspectRatio
+              ? `${aspectRatio * 100}%`
+              : `${(+height / +width) * 100}%`
+            : undefined,
           cursor: preview ? 'zoom-in' : 'default',
         }}
         className='img-blur'
@@ -101,21 +105,19 @@ export default function CloudinaryImg({
             z-index: 0;
             background-image: url(${urlBlurred});
             background-position: center center;
-            background-size: 100%;
+            background-size: cover;
           }
         `}</style>
-        <div className='absolute left-0 top-0'>
+        <div className={isFill ? 'absolute inset-0' : 'absolute left-0 top-0'}>
           <Image
-            width={
-              resizedToMaxWidth ? Math.min(Number(width), RESIZE_MAX_WIDTH) : Number(width)
-            }
-            height={
-              resizedToMaxWidth ? Math.round((RESIZE_MAX_WIDTH * Number(height)) / Number(width)) : Number(height)
-            }
+            fill={isFill}
+            width={!isFill ? (resizedToMaxWidth ? Math.min(Number(width), RESIZE_MAX_WIDTH) : Number(width)) : undefined}
+            height={!isFill ? (resizedToMaxWidth ? Math.round((RESIZE_MAX_WIDTH * Number(height)) / Number(width)) : Number(height)) : undefined}
             unoptimized
             src={url}
             alt={alt}
             title={title || alt}
+            style={isFill ? { objectFit: 'cover' } : undefined}
           />
         </div>
       </div>
