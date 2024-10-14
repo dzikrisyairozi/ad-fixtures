@@ -48,6 +48,12 @@
     "valueEngineeringTitle": "VALUE ENGINEERING",
     "valueEngineeringDescription": "Through value engineering, we transform ideas into reality. High quality and fair price are delivered to clients."
   },
+  "ProcessHub": {
+    "title": "OUR FACTORY IS NOT JUST A PRODUCTION FACILITY, BUT A HUB OF CREATIVITY AND CRAFTSMANSHIP",
+    "description": "HERE'S A GLIMPSE INTO HOW WE, AS A TEAM, BRING YOUR CONCEPTS TO LIFE",
+    "ctaButton": "EXPLORE OUR PROCESS",
+    "backgroundAlt": "Factory worker in protective gear"
+  },
   "Footer": {
     "companyName": "AD Fixtures Inc.",
     "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",
