@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { XIcon } from "lucide-react";
 import { MobileCarousel } from "../components/MobileCarouselProcess";
+import { useMediaQuery } from "react-responsive";
 
 function Process() {
   const t = useTranslations("Process");
@@ -53,6 +54,7 @@ function Process() {
     visible: { opacity: 1, y: 0 },
   };
 
+  const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
     <section
@@ -82,47 +84,51 @@ function Process() {
 
       {/* Content overlay */}
       <div className="container mx-auto px-4 relative z-20">
-      <motion.h2
-        initial={{ opacity: 0, y: 50 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.5 }}
-        className="text-4xl md:text-5xl font-extrabold text-black mb-4 uppercase text-center md:text-left"
-      >
-        {t("title")}
-      </motion.h2>
-      <motion.p
-        initial={{ opacity: 0, y: 50 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        className="text-lg md:text-xl text-gray-800 mb-10 text-center md:text-left"
-      >
-        {t("description")}
-      </motion.p>
-
-
-      <motion.div
-          className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-4"
-          variants={containerVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
+        <motion.h2
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5 }}
+          className="text-4xl md:text-5xl font-extrabold text-black mb-4 uppercase text-center md:text-left"
         >
-          {processSteps.map((step) => (
-            <motion.div
-              key={step.number}
-              layoutId={step.number}
-              onClick={() => setSelectedId(step.number)}
-              variants={itemVariants}
-              transition={{ duration: 0.5 }}
-              className="bg-white p-6 rounded-md shadow-lg cursor-pointer aspect-square flex items-center justify-center"
-            >
-              <h3 className="text-[128px] font-bold text-red-600">
-                {step.number}
-              </h3>
-            </motion.div>
-          ))}
-        </motion.div>
+          {t("title")}
+        </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="text-lg md:text-xl text-gray-800 mb-10 text-center md:text-left"
+        >
+          {t("description")}
+        </motion.p>
 
-        <MobileCarousel processSteps={processSteps} setSelectedId={setSelectedId} />
+        {isMobile ? (
+          <MobileCarousel
+            processSteps={processSteps}
+            setSelectedId={setSelectedId}
+          />
+        ) : (
+          <motion.div
+            className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-4"
+            variants={containerVariants}
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"}
+          >
+            {processSteps.map((step) => (
+              <motion.div
+                key={`process-step-${step.number}`}
+                layoutId={`process-step-${step.number}`}
+                onClick={() => setSelectedId(step.number)}
+                variants={itemVariants}
+                transition={{ duration: 0.5 }}
+                className="bg-white p-6 rounded-md shadow-lg cursor-pointer aspect-square flex items-center justify-center"
+              >
+                <h3 className="text-[128px] font-bold text-red-600">
+                  {step.number}
+                </h3>
+              </motion.div>
+            ))}
+          </motion.div>
+        )}
 
         <AnimatePresence>
           {selectedId && (
@@ -134,7 +140,7 @@ function Process() {
               className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
             >
               <motion.div
-                layoutId={selectedId}
+                layoutId={`process-step-${selectedId}`}
                 className="bg-white p-8 rounded-lg shadow-xl max-w-lg w-full relative"
                 initial={{ opacity: 0, scale: 0.8, y: 50 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
