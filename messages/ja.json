@@ -1,39 +1,53 @@
 {
-    "header": {
-      "about": "关于",
-      "solution": "解决方案",
-      "contactUs": "联系我们"
-    },
-    "Index": {
-        "companyName": "AD フィクスチャーズ株式会社",
-        "factoryImageAlt": "工場画像 {number}",
-        "slogan": "カスタム製造だけでなく、プロセス中に適切なエンジニアリング提案をクライアントに提供します。クライアントの最大利益を得るよう努めています。",
-        "shopNow": "今すぐ購入"
-    },
-    "Footer": {
-        "companyName": "AD Fixtures株式会社",
-        "address": "台湾台中市太平区建功街68号 411034",
-        "discoverUs": "私たちについて",
-        "ourStory": "私たちの物語",
-        "brandPartners": "ブランドパートナー",
-        "blog": "ブログ",
-        "giftVoucher": "ギフト券",
-        "customerServices": "カスタマーサービス",
-        "contactUs": "お問い合わせ",
-        "faqs": "よくある質問",
-        "warranty": "保証",
-        "ourGuarantee": "当社の保証",
-        "returnPolicy": "返品ポリシー",
-        "legal": "法的情報",
-        "termsOfService": "利用規約",
-        "termsAndConditions": "利用条件",
-        "termsOfWebsiteUse": "ウェブサイト利用規約",
-        "privacyPolicy": "プライバシーポリシー",
-        "accessibilityStatement": "アクセシビリティ声明",
-        "commercial": "商業パートナーシップ",
-        "distributionPartners": "販売パートナー",
-        "volumeDiscounts": "数量割引",
-        "wholesaleInquiries": "卸売のお問い合わせ",
-        "allRightsReserved": "All rights reserved."
-      }
+  "header": {
+    "about": "关于",
+    "solution": "解决方案",
+    "contactUs": "联系我们"
+  },
+  "Index": {
+    "companyName": "AD フィクスチャーズ株式会社",
+    "factoryImageAlt": "工場画像 {number}",
+    "slogan": "カスタム製造だけでなく、プロセス中に適切なエンジニアリング提案をクライアントに提供します。クライアントの最大利益を得るよう努めています。",
+    "shopNow": "今すぐ購入"
+  },
+  "About": {
+    "headerTitle": "製造だけでなく、エンジニアリングも",
+    "yearExperience": "年の経験",
+    "countrySpread": "展開国数",
+    "furnitureSold": "販売家具数",
+    "variantFurniture": "家具バリエーション",
+    "industrialExperienceTitle": "産業経験",
+    "industrialExperienceDescription": "ほとんどの要件はカスタマイズされています。20年の経験を活かし、安定した高品質の製品を提供できます。",
+    "industrialExperienceImageAlt": "産業経験の画像",
+    "oneStopServiceTitle": "ワンストップサービス",
+    "oneStopServiceDescription": "サテライトサプライヤーチェーンにより、すべての生産ラインを所有していなくても、クライアントにワンストップの製造サービスを提供できます。これはリードタイムを短縮するための重要なポイントでもあります。",
+    "oneStopServiceImage1Alt": "ワンストップサービスの画像1",
+    "oneStopServiceImage2Alt": "ワンストップサービスの画像2"
+  },
+  "Footer": {
+    "companyName": "AD Fixtures株式会社",
+    "address": "台湾台中市太平区建功街68号 411034",
+    "discoverUs": "私たちについて",
+    "ourStory": "私たちの物語",
+    "brandPartners": "ブランドパートナー",
+    "blog": "ブログ",
+    "giftVoucher": "ギフト券",
+    "customerServices": "カスタマーサービス",
+    "contactUs": "お問い合わせ",
+    "faqs": "よくある質問",
+    "warranty": "保証",
+    "ourGuarantee": "当社の保証",
+    "returnPolicy": "返品ポリシー",
+    "legal": "法的情報",
+    "termsOfService": "利用規約",
+    "termsAndConditions": "利用条件",
+    "termsOfWebsiteUse": "ウェブサイト利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "accessibilityStatement": "アクセシビリティ声明",
+    "commercial": "商業パートナーシップ",
+    "distributionPartners": "販売パートナー",
+    "volumeDiscounts": "数量割引",
+    "wholesaleInquiries": "卸売のお問い合わせ",
+    "allRightsReserved": "All rights reserved."
   }
+}

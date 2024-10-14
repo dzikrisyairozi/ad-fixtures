@@ -4,6 +4,7 @@ import Seo from "@/components/Seo";
 import Layout from "@/components/layout/Layout";
 import { GetStaticProps } from "next";
 import Hero from "./landing/sections/Hero";
+import About from "./landing/sections/About";
 // import { useTranslations } from 'next-intl';
 
 // const geistSans = localFont({
@@ -25,6 +26,7 @@ export default function Home({ messages, locale }: { messages: any, locale: stri
       <Seo />
       <main>
         <Hero />
+        <About />
       </main>
     </Layout>
   );

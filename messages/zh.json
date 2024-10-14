@@ -1,16 +1,30 @@
 {
-    "header": {
-      "about": "关于",
-      "solution": "解决方案",
-      "contactUs": "联系我们"
-    },
-    "Index": {
-        "companyName": "AD Fixtures 股份有限公司",
-        "factoryImageAlt": "工厂图片 {number}",
-        "slogan": "除了定制制造，我们还将在过程中为客户提供适当的工程建议。我们努力为客户赢得最大利益。",
-        "shopNow": "立即购买"
-    },
-    "Footer": {
+  "header": {
+    "about": "关于",
+    "solution": "解决方案",
+    "contactUs": "联系我们"
+  },
+  "Index": {
+    "companyName": "AD Fixtures 股份有限公司",
+    "factoryImageAlt": "工厂图片 {number}",
+    "slogan": "除了定制制造，我们还将在过程中为客户提供适当的工程建议。我们努力为客户赢得最大利益。",
+    "shopNow": "立即购买"
+  },
+  "About": {
+    "headerTitle": "我们不仅制造，更注重工程",
+    "yearExperience": "年经验",
+    "countrySpread": "遍布国家",
+    "furnitureSold": "家具销售量",
+    "variantFurniture": "家具款式",
+    "industrialExperienceTitle": "工业经验",
+    "industrialExperienceDescription": "大多数需求都是定制的。凭借我们20年的经验，我们能够提供稳定和高质量的产品。",
+    "industrialExperienceImageAlt": "工业经验图片",
+    "oneStopServiceTitle": "一站式服务",
+    "oneStopServiceDescription": "通过卫星供应商链，即使我们不拥有所有生产线，我们也能为客户提供一站式制造服务。这也是我们缩短交货时间的关键。",
+    "oneStopServiceImage1Alt": "一站式服务图片1",
+    "oneStopServiceImage2Alt": "一站式服务图片2"
+  },
+  "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
     "address": "台湾台中市太平区建功街68号 411034",
     "discoverUs": "了解我们",
@@ -36,4 +50,4 @@
     "wholesaleInquiries": "批发咨询",
     "allRightsReserved": "版权所有。"
   }
-  }
+}
