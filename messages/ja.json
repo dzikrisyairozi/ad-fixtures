@@ -24,6 +24,11 @@
     "oneStopServiceImage1Alt": "ワンストップサービスの画像1",
     "oneStopServiceImage2Alt": "ワンストップサービスの画像2"
   },
+  "AdFixtures": {
+    "backgroundImageAlt": "ADフィクスチャーズの工場",
+    "title": "あなたのために無限の可能性を創造する場所",
+    "description": "ADフィクスチャーズでは、最先端の製造能力と革新的なデザインソリューションにより、お客様のビジョンを現実にします。"
+  },
   "Footer": {
     "companyName": "AD Fixtures株式会社",
     "address": "台湾台中市太平区建功街68号 411034",
