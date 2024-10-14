@@ -48,6 +48,12 @@
     "valueEngineeringTitle": "バリューエンジニアリング",
     "valueEngineeringDescription": "バリューエンジニアリングを通じて、アイデアを現実に変えます。高品質と適正価格をクライアントにお届けします。"
   },
+  "ProcessHub": {
+    "title": "私たちの工場は単なる生産施設ではなく、創造性と職人技の中心地です",
+    "description": "チームとして、お客様のコンセプトを形にする過程をご覧ください",
+    "ctaButton": "プロセスを探る",
+    "backgroundAlt": "保護具を着用した工場作業員"
+  },
   "Footer": {
     "companyName": "AD Fixtures株式会社",
     "address": "台湾台中市太平区建功街68号 411034",

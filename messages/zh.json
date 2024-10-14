@@ -48,6 +48,12 @@
     "valueEngineeringTitle": "价值工程",
     "valueEngineeringDescription": "通过价值工程，我们将创意转化为现实。为客户提供高品质和合理价格的产品。"
   },
+  "ProcessHub": {
+    "title": "我们的工厂不仅仅是一个生产设施，更是创意和工艺的中心",
+    "description": "这里让您一瞥我们团队如何将您的概念变为现实",
+    "ctaButton": "探索我们的流程",
+    "backgroundAlt": "穿着防护装备的工厂工人"
+  },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
     "address": "台湾台中市太平区建功街68号 411034",
