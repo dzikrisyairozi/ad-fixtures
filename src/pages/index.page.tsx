@@ -9,6 +9,7 @@ import AdFixtures from "./landing/sections/AdFixtures";
 import Capability from "./landing/sections/Capability";
 import WeAreCapable from "./landing/sections/WeAreCapable";
 import ProcessHub from "./landing/sections/ProcessHub";
+import Process from "./landing/sections/Process";
 // import { useTranslations } from 'next-intl';
 
 // const geistSans = localFont({
@@ -35,6 +36,7 @@ export default function Home({ messages, locale }: { messages: any, locale: stri
         <Capability />
         <WeAreCapable />
         <ProcessHub/>
+        <Process/>
       </main>
     </Layout>
   );
