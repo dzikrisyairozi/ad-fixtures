@@ -1,39 +1,53 @@
 {
-    "header": {
-      "about": "ABOUT",
-      "solution": "SOLUTION",
-      "contactUs": "CONTACT US"
-    },
-    "Index": {
-        "companyName": "AD FIXTURES INC.",
-        "factoryImageAlt": "Factory image {number}",
-        "slogan": "BESIDES CUSTOM MANUFACTURING, WE WILL PROVIDE CLIENTS WITH PROPER ENGINEERING SUGGESTIONS DURING THE PROCESS. WE TRY TO EARN THE MAXIMUM BENEFIT FOR CLIENTS.",
-        "shopNow": "SHOP NOW"
-    },
-    "Footer": {
-        "companyName": "AD Fixtures Inc.",
-        "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",
-        "discoverUs": "Discover Us",
-        "ourStory": "Our Story",
-        "brandPartners": "Brand Partners",
-        "blog": "Blog",
-        "giftVoucher": "Gift Voucher",
-        "customerServices": "Customer Services",
-        "contactUs": "Contact Us",
-        "faqs": "FAQs",
-        "warranty": "Warranty",
-        "ourGuarantee": "Our Guarantee",
-        "returnPolicy": "Return Policy",
-        "legal": "Legal",
-        "termsOfService": "Terms of Service",
-        "termsAndConditions": "Terms and Conditions",
-        "termsOfWebsiteUse": "Terms of Website Use",
-        "privacyPolicy": "Privacy Policy",
-        "accessibilityStatement": "Accessibility Statement",
-        "commercial": "Commercial",
-        "distributionPartners": "Distribution Partners",
-        "volumeDiscounts": "Volume Discounts",
-        "wholesaleInquiries": "Wholesale Inquiries",
-        "allRightsReserved": "All rights reserved."
-      }
+  "header": {
+    "about": "ABOUT",
+    "solution": "SOLUTION",
+    "contactUs": "CONTACT US"
+  },
+  "Index": {
+    "companyName": "AD FIXTURES INC.",
+    "factoryImageAlt": "Factory image {number}",
+    "slogan": "BESIDES CUSTOM MANUFACTURING, WE WILL PROVIDE CLIENTS WITH PROPER ENGINEERING SUGGESTIONS DURING THE PROCESS. WE TRY TO EARN THE MAXIMUM BENEFIT FOR CLIENTS.",
+    "shopNow": "SHOP NOW"
+  },
+  "About": {
+    "headerTitle": "NOT ONLY WE MAKE, WE ENGINEERING",
+    "yearExperience": "Year Experience",
+    "countrySpread": "Spread in the country",
+    "furnitureSold": "Furniture sold",
+    "variantFurniture": "Variant Furniture",
+    "industrialExperienceTitle": "INDUSTRIAL EXPERIENCE",
+    "industrialExperienceDescription": "Most of requirements are customized. By our 20-year experience, stable and high quality products can be delivered.",
+    "industrialExperienceImageAlt": "Industrial Experience Image",
+    "oneStopServiceTitle": "ONE-STOP SERVICE",
+    "oneStopServiceDescription": "With satellite supplier chain, we are able to provide clients with one-stop manufacturing service even if we don't own all production line. This is also the key point for us to shorten lead time.",
+    "oneStopServiceImage1Alt": "One-Stop Service Image 1",
+    "oneStopServiceImage2Alt": "One-Stop Service Image 2"
+  },
+  "Footer": {
+    "companyName": "AD Fixtures Inc.",
+    "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",
+    "discoverUs": "Discover Us",
+    "ourStory": "Our Story",
+    "brandPartners": "Brand Partners",
+    "blog": "Blog",
+    "giftVoucher": "Gift Voucher",
+    "customerServices": "Customer Services",
+    "contactUs": "Contact Us",
+    "faqs": "FAQs",
+    "warranty": "Warranty",
+    "ourGuarantee": "Our Guarantee",
+    "returnPolicy": "Return Policy",
+    "legal": "Legal",
+    "termsOfService": "Terms of Service",
+    "termsAndConditions": "Terms and Conditions",
+    "termsOfWebsiteUse": "Terms of Website Use",
+    "privacyPolicy": "Privacy Policy",
+    "accessibilityStatement": "Accessibility Statement",
+    "commercial": "Commercial",
+    "distributionPartners": "Distribution Partners",
+    "volumeDiscounts": "Volume Discounts",
+    "wholesaleInquiries": "Wholesale Inquiries",
+    "allRightsReserved": "All rights reserved."
   }
+}
