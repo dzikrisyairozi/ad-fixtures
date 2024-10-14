@@ -32,7 +32,13 @@
   "Capability": {
     "title_metal": "METAL",
     "description_metal": "Within Our State-Of-The-Art Metal Factory, We Breathe Life Into Raw Materials, Sculpting Them Into Bespoke Masterpieces",
-    "imageAlt_metal": "Modern living room with metal furniture"
+    "imageAlt_metal": "Modern living room with metal furniture",
+    "title_millwork": "MILLWORK",
+    "description_millwork": "Our Advanced Millwork Facility Transforms Raw Wood into Exquisite, Custom-Crafted Pieces",
+    "imageAlt_millwork": "Modern interior with custom millwork",
+    "title_powder": "POWDER COATING",
+    "description_powder": "In Our Cutting-Edge Powder Coating Facility, We Apply Durable and Vibrant Finishes to Metal Surfaces",
+    "imageAlt_powder": "Powder coated metal furniture"
   },
   "Footer": {
     "companyName": "AD Fixtures Inc.",

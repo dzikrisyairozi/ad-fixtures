@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { useTranslations } from 'next-intl';
-import Image from 'next/image';
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
+import GridBackground from "../components/GridBackground";
 
-const images = [
+const metalImages = [
   "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/metal1.jpg",
   "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/metal2.jpg",
   "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/metal3.jpg",
@@ -12,19 +13,40 @@ const images = [
   "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/metal5.jpg",
 ];
 
+const woodImages = [
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/wood1.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/wood6.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/wood3.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/wood4.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/wood5.jpg",
+];
+
+const powderImages = [
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/powder1.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/powder2.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/powder3.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/powder4.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/powder5.jpg",
+];
+
 function Capability() {
-  const t = useTranslations('Capability');
+  const t = useTranslations("Capability");
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
 
-  const [imageOrder, setImageOrder] = useState(images);
+  const [metalImageOrder, setMetalImageOrder] = useState(metalImages);
+  const [woodImageOrder, setWoodImageOrder] = useState(woodImages);
+  const [powderImageOrder, setPowderImageOrder] = useState(powderImages);
   const [isAnimating, setIsAnimating] = useState(false);
 
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 0.8, staggerChildren: 0.3 } },
+    visible: {
+      opacity: 1,
+      transition: { duration: 0.8, staggerChildren: 0.3 },
+    },
   };
 
   const itemVariants = {
@@ -32,10 +54,24 @@ function Capability() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
 
-  const nextImage = async () => {
+  const nextMetalImage = async () => {
     if (isAnimating) return;
     setIsAnimating(true);
-    setImageOrder(prevOrder => [...prevOrder.slice(1), prevOrder[0]]);
+    setMetalImageOrder((prevOrder) => [...prevOrder.slice(1), prevOrder[0]]);
+    setTimeout(() => setIsAnimating(false), 300);
+  };
+
+  const nextWoodImage = async () => {
+    if (isAnimating) return;
+    setIsAnimating(true);
+    setWoodImageOrder((prevOrder) => [...prevOrder.slice(1), prevOrder[0]]);
+    setTimeout(() => setIsAnimating(false), 300);
+  };
+
+  const nextPowderImage = async () => {
+    if (isAnimating) return;
+    setIsAnimating(true);
+    setPowderImageOrder((prevOrder) => [...prevOrder.slice(1), prevOrder[0]]);
     setTimeout(() => setIsAnimating(false), 300);
   };
 
@@ -45,33 +81,50 @@ function Capability() {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={containerVariants}
-      className="py-16 md:py-24 bg-white"
+      className="py-16 md:py-24 bg-white relative flex flex-col justify-center w-full overflow-hidden"
     >
+      <GridBackground />
+
+      {/* METAL */}
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center">
-          <motion.div variants={itemVariants} className="md:w-1/2 mb-8 md:mb-0 relative" style={{ height: '400px', width: '600px' }}>
+        <div className="flex flex-col md:flex-row items-center justify-between">
+          <motion.div
+            variants={itemVariants}
+            className="md:mb-0 relative w-[324px] h-[256px] md:w-[600px] md:h-[400px]"
+          >
             <AnimatePresence mode="popLayout">
-              {imageOrder.map((src, index) => (
+              {metalImageOrder.map((src, index) => (
                 <motion.div
                   key={src}
                   className="absolute top-0 left-0"
-                  initial={index === 0 ? { x: 300, opacity: 0 } : { opacity: 1 }}
+                  initial={
+                    index === 0 ? { x: 300, opacity: 0 } : { opacity: 1 }
+                  }
                   animate={{
-                    zIndex: imageOrder.length - index,
+                    zIndex: metalImageOrder.length - index,
                     scale: 1 - index * 0.05,
                     y: index * 10,
                     x: index * 5,
                     rotate: index * 2,
                     opacity: index === 0 ? 1 : 0.8 - index * 0.1,
                   }}
-                  exit={index === 0 ? { x: -300, opacity: 0, transition: { duration: 0.3 } } : {}}
+                  exit={
+                    index === 0
+                      ? { x: -300, opacity: 0, transition: { duration: 0.3 } }
+                      : {}
+                  }
                   transition={{ duration: 0.3 }}
-                  onClick={index === 0 && !isAnimating ? nextImage : undefined}
-                  style={{ cursor: index === 0 && !isAnimating ? 'pointer' : 'default', transformOrigin: 'top right' }}
+                  onClick={
+                    index === 0 && !isAnimating ? nextMetalImage : undefined
+                  }
+                  style={{
+                    cursor: index === 0 && !isAnimating ? "pointer" : "default",
+                    transformOrigin: "top right",
+                  }}
                 >
                   <Image
                     src={src}
-                    alt={`${t('imageAlt_metal')} ${index + 1}`}
+                    alt={`${t("imageAlt_metal")} ${index + 1}`}
                     width={600}
                     height={400}
                     className="rounded-md shadow-lg"
@@ -82,10 +135,128 @@ function Capability() {
           </motion.div>
           <motion.div variants={itemVariants} className="md:w-1/2 md:pl-12">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-800">
-              {t('title_metal')}
+              {t("title_metal")}
             </h2>
-            <p className="text-lg text-gray-600 mb-6">
-              {t('description_metal')}
+            <p className="text-lg text-gray-600 mb-6 w-3/4">
+              {t("description_metal")}
+            </p>
+          </motion.div>
+        </div>
+      </div>
+
+      {/* MILLWORK */}
+      <div className="container mx-auto px-4 mt-8">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between">
+          <motion.div variants={itemVariants} className="md:w-1/2 md:pl-12">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-800">
+              {t("title_millwork")}
+            </h2>
+            <p className="text-lg text-gray-600 mb-6 w-3/4">
+              {t("description_millwork")}
+            </p>
+          </motion.div>
+          <motion.div
+            variants={itemVariants}
+            className="md:mb-0 relative w-[324px] h-[256px] md:w-[600px] md:h-[400px]"
+          >
+            <AnimatePresence mode="popLayout">
+              {woodImageOrder.map((src, index) => (
+                <motion.div
+                  key={src}
+                  className="absolute top-0 left-0"
+                  initial={
+                    index === 0 ? { x: 300, opacity: 0 } : { opacity: 1 }
+                  }
+                  animate={{
+                    zIndex: woodImageOrder.length - index,
+                    scale: 1 - index * 0.05,
+                    y: index * 10,
+                    x: index * 5,
+                    rotate: index * 2,
+                    opacity: index === 0 ? 1 : 0.8 - index * 0.1,
+                  }}
+                  exit={
+                    index === 0
+                      ? { x: -300, opacity: 0, transition: { duration: 0.3 } }
+                      : {}
+                  }
+                  transition={{ duration: 0.3 }}
+                  onClick={
+                    index === 0 && !isAnimating ? nextWoodImage : undefined
+                  }
+                  style={{
+                    cursor: index === 0 && !isAnimating ? "pointer" : "default",
+                    transformOrigin: "top right",
+                  }}
+                >
+                  <Image
+                    src={src}
+                    alt={`${t("imageAlt_millwork")} ${index + 1}`}
+                    width={600}
+                    height={400}
+                    className="rounded-md shadow-lg"
+                  />
+                </motion.div>
+              ))}
+            </AnimatePresence>
+          </motion.div>
+        </div>
+      </div>
+
+      {/* POWDER COATING */}
+      <div className="container mx-auto px-4 mt-8">
+        <div className="flex flex-col md:flex-row items-center justify-between">
+        <motion.div
+            variants={itemVariants}
+            className="md:mb-0 relative w-[324px] h-[256px] md:w-[600px] md:h-[400px]"
+          >
+            <AnimatePresence mode="popLayout">
+              {powderImageOrder.map((src, index) => (
+                <motion.div
+                  key={src}
+                  className="absolute top-0 left-0"
+                  initial={
+                    index === 0 ? { x: 300, opacity: 0 } : { opacity: 1 }
+                  }
+                  animate={{
+                    zIndex: powderImageOrder.length - index,
+                    scale: 1 - index * 0.05,
+                    y: index * 10,
+                    x: index * 5,
+                    rotate: index * 2,
+                    opacity: index === 0 ? 1 : 0.8 - index * 0.1,
+                  }}
+                  exit={
+                    index === 0
+                      ? { x: -300, opacity: 0, transition: { duration: 0.3 } }
+                      : {}
+                  }
+                  transition={{ duration: 0.3 }}
+                  onClick={
+                    index === 0 && !isAnimating ? nextPowderImage : undefined
+                  }
+                  style={{
+                    cursor: index === 0 && !isAnimating ? "pointer" : "default",
+                    transformOrigin: "top right",
+                  }}
+                >
+                  <Image
+                    src={src}
+                    alt={`${t("imageAlt_powder")} ${index + 1}`}
+                    width={600}
+                    height={400}
+                    className="rounded-md shadow-lg"
+                  />
+                </motion.div>
+              ))}
+            </AnimatePresence>
+          </motion.div>
+          <motion.div variants={itemVariants} className="md:w-1/2 md:pl-12">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-800">
+              {t("title_powder")}
+            </h2>
+            <p className="text-lg text-gray-600 mb-6 w-3/4">
+              {t("description_powder")}
             </p>
           </motion.div>
         </div>

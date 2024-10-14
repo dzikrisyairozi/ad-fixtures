@@ -32,7 +32,13 @@
   "Capability": {
     "title_metal": "金属",
     "description_metal": "在我们最先进的金属工厂里，我们为原材料注入生命，将它们雕琢成定制的杰作",
-    "imageAlt_metal": "带有金属家具的现代客厅"
+    "imageAlt_metal": "带有金属家具的现代客厅",
+    "title_millwork": "木工",
+    "description_millwork": "在我们先进的木工设施中，我们将原木转化为精美的定制作品",
+    "imageAlt_millwork": "带有定制木工的现代室内",
+    "title_powder": "粉末涂装",
+    "description_powder": "在我们尖端的粉末涂装设施中，我们为金属表面施加耐用且鲜艳的涂层",
+    "imageAlt_powder": "粉末涂装的金属家具"
   },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
