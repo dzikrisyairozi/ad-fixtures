@@ -29,6 +29,11 @@
     "title": "为您打造无限可能的地方",
     "description": "在 AD Fixtures，我们通过先进的制造能力和创新的设计解决方案，将您的愿景变为现实。"
   },
+  "Capability": {
+    "title_metal": "金属",
+    "description_metal": "在我们最先进的金属工厂里，我们为原材料注入生命，将它们雕琢成定制的杰作",
+    "imageAlt_metal": "带有金属家具的现代客厅"
+  },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
     "address": "台湾台中市太平区建功街68号 411034",
