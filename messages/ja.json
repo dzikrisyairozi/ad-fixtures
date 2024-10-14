@@ -40,6 +40,14 @@
     "description_powder": "最新の粉体塗装施設で、金属表面に耐久性のある鮮やかな仕上げを施しています",
     "imageAlt_powder": "粉体塗装された金属家具"
   },
+  "WeAreCapable": {
+    "title": "私たちの能力",
+    "versatileSolutionTitle": "多様なソリューション",
+    "versatileSolutionSubtitle": "多様な材料のためのソリューション",
+    "versatileSolutionDescription": "金属や木材だけでなく、多様な材料を調達する能力を持ち、幅広い選択肢をご提供します。",
+    "valueEngineeringTitle": "バリューエンジニアリング",
+    "valueEngineeringDescription": "バリューエンジニアリングを通じて、アイデアを現実に変えます。高品質と適正価格をクライアントにお届けします。"
+  },
   "Footer": {
     "companyName": "AD Fixtures株式会社",
     "address": "台湾台中市太平区建功街68号 411034",

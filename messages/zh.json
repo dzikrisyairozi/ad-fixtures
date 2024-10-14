@@ -40,6 +40,14 @@
     "description_powder": "在我们尖端的粉末涂装设施中，我们为金属表面施加耐用且鲜艳的涂层",
     "imageAlt_powder": "粉末涂装的金属家具"
   },
+  "WeAreCapable": {
+    "title": "我们的能力",
+    "versatileSolutionTitle": "多样化解决方案",
+    "versatileSolutionSubtitle": "多样材料解决方案",
+    "versatileSolutionDescription": "除了金属和木材，我们的能力还延伸到采购各种材料，为您提供多样化的选择。",
+    "valueEngineeringTitle": "价值工程",
+    "valueEngineeringDescription": "通过价值工程，我们将创意转化为现实。为客户提供高品质和合理价格的产品。"
+  },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
     "address": "台湾台中市太平区建功街68号 411034",
