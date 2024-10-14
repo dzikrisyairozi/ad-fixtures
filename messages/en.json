@@ -24,6 +24,11 @@
     "oneStopServiceImage1Alt": "One-Stop Service Image 1",
     "oneStopServiceImage2Alt": "One-Stop Service Image 2"
   },
+  "AdFixtures": {
+    "backgroundImageAlt": "AD Fixtures factory",
+    "title": "WHERE WE CRAFT LIMITLESS POSSIBILITIES JUST FOR YOU",
+    "description": "At AD Fixtures, we turn your vision into reality with our state-of-the-art manufacturing capabilities and innovative design solutions."
+  },
   "Footer": {
     "companyName": "AD Fixtures Inc.",
     "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",
