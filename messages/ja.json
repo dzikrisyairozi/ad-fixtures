@@ -83,6 +83,13 @@
     "bmaDescription": "BMAグループの3ブランドの什器製造をサポートし、UAEエリアで150店舗をクライアントのためにオープンしました。",
     "aldoDescription": "ALDOの店舗什器3世代に渡って協力し、これらの成果に参加できたことを光栄に思います。"
   },
+  "CallToActions": {
+    "backgroundImageAlt": "工場内部",
+    "title": "共に無限の可能性を創造する方法を見つけましょう",
+    "description": "ニュース、オファーなどをお届けします",
+    "emailPlaceholder": "メールアドレスを入力",
+    "subscribeButton": "登録"
+  },
   "Footer": {
     "companyName": "AD Fixtures株式会社",
     "address": "台湾台中市太平区建功街68号 411034",
