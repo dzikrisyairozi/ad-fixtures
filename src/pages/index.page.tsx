@@ -7,6 +7,7 @@ import Hero from "./landing/sections/Hero";
 import About from "./landing/sections/About";
 import AdFixtures from "./landing/sections/AdFixtures";
 import Capability from "./landing/sections/Capability";
+import WeAreCapable from "./landing/sections/WeAreCapable";
 // import { useTranslations } from 'next-intl';
 
 // const geistSans = localFont({
@@ -31,6 +32,7 @@ export default function Home({ messages, locale }: { messages: any, locale: stri
         <About />
         <AdFixtures />
         <Capability />
+        <WeAreCapable />
       </main>
     </Layout>
   );
