@@ -54,6 +54,27 @@
     "ctaButton": "EXPLORE OUR PROCESS",
     "backgroundAlt": "Factory worker in protective gear"
   },
+  "Process": {
+    "title": "Witness Your Idea",
+    "description": "Based on your vision, our skilled team turns it into a tangible prototype.",
+    "backgroundAlt": "Factory process image",
+    "step1": {
+      "title": "MEET YOUR NEEDS",
+      "description": "Let's start by understanding your needs:\n1.Specifications\n2.Construction details\n3.Preferred material and finish\n4.Project budget\nYour vision is our priority, and we're here to tailor a solution that ticks all your boxes."
+    },
+    "step2": {
+      "title": "VALUE ENGINEERING LEADS TO SOLUTION",
+      "description": "We are not only making goods.\nThrough our meticulous value engineering processes, we transform your ideas into reality, seamlessly merging innovation and cost-effectiveness."
+    },
+    "step3": {
+      "title": "PRECISION IN PRODUCTION",
+      "description": "Top-notch quality and accurate lead-time are delivered to clients.\nBefore anything leaves our facility, it undergoes a thorough quality check to ensure it exceeds your expectations."
+    },
+    "step4": {
+      "title": "PARTNERSHIP BEYOND PRODUCTS",
+      "description": "Aiming to build lasting partnerships with clients, we're not just here to sell; we're here to support your success."
+    }
+  },
   "Footer": {
     "companyName": "AD Fixtures Inc.",
     "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",
