@@ -11,6 +11,7 @@ import WeAreCapable from "./landing/sections/WeAreCapable";
 import ProcessHub from "./landing/sections/ProcessHub";
 import Process from "./landing/sections/Process";
 import Partner from "./landing/sections/Partner";
+import WorksPortofolio from "./landing/sections/WorksPortofolio";
 // import { useTranslations } from 'next-intl';
 
 // const geistSans = localFont({
@@ -39,6 +40,7 @@ export default function Home({ messages, locale }: { messages: any, locale: stri
         <ProcessHub/>
         <Process/>
         <Partner/>
+        <WorksPortofolio/>
       </main>
     </Layout>
   );

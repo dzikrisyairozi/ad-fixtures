@@ -75,6 +75,14 @@
       "description": "お客様との長期的なパートナーシップの構築を目指し、単なる販売だけでなく、お客様の成功をサポートすることに注力しています。"
     }
   },
+  "WorksPortfolio": {
+    "skechersDescription": "为Skechers提供10年的制造服务，我们为Skechers开发了定制的RC鞋。",
+    "ispoDescription": "这种免工具组装解决方案允许快速高效地构建固定装置，为您的商店提供快速有效的设置。",
+    "hokaDescription": "色彩鲜艳的固定装置为商店注入了充满活力和精力的氛围，而易于移动的展示架提供了多种方式展示产品的灵活选择。",
+    "bvlgariDescription": "与GJ装饰合作，我们有机会为台湾宝格丽商店的外墙进行重建。",
+    "bmaDescription": "为支持BMA集团制造3个品牌的固定装置，我们在阿联酋地区为客户开设了150家商店。",
+    "aldoDescription": "与ALDO合作三代店铺固定装置，我们很荣幸能参与这些成就。"
+  },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
     "address": "台湾台中市太平区建功街68号 411034",
