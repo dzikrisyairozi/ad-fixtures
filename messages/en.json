@@ -83,6 +83,13 @@
     "bmaDescription": "To support BMA group in manufacturing fixtures for 3 brands, we opened 150 stores for client in UAE area.",
     "aldoDescription": "Cooperating with ALDO for 3 generation of store fixtures, we are honored to participate in those achievement."
   },
+  "CallToActions": {
+    "backgroundImageAlt": "Factory interior",
+    "title": "FIND OUT HOW WE CAN CREATE ENDLESS POSSIBILITIES TOGETHER",
+    "description": "DISCOVER NEWS, OFFERS AND MORE",
+    "emailPlaceholder": "Enter your email",
+    "subscribeButton": "SUBSCRIBE"
+  },
   "Footer": {
     "companyName": "AD Fixtures Inc.",
     "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",

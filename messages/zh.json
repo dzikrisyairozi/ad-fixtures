@@ -83,6 +83,13 @@
     "bmaDescription": "为支持BMA集团制造3个品牌的固定装置，我们在阿联酋地区为客户开设了150家商店。",
     "aldoDescription": "与ALDO合作三代店铺固定装置，我们很荣幸能参与这些成就。"
   },
+  "CallToActions": {
+    "backgroundImageAlt": "工厂内部",
+    "title": "了解我们如何共同创造无限可能",
+    "description": "发现新闻、优惠等更多信息",
+    "emailPlaceholder": "输入您的电子邮箱",
+    "subscribeButton": "订阅"
+  },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
     "address": "台湾台中市太平区建功街68号 411034",
