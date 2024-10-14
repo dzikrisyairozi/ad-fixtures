@@ -113,7 +113,7 @@ function About() {
                   width={600}
                   height={400}
                   alt={t("industrialExperienceImageAlt")}
-                  className="w-full relative z-10 hover:transform hover:translate-x-[-16px] hover:translate-y-[-16px] transition-all duration-300 ease-in-out hover:scale-[102.5%]"
+                  className="w-full relative z-10 hover:transform hover:translate-x-[-16px] hover:translate-y-[-16px] transition-all duration-300 ease-in-out hover:scale-[102.5%] hover:shadow-lg hover"
                   imgClassName="rounded-lg w-full"
                 />
               </motion.div>
