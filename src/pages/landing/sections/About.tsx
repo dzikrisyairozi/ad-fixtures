@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useInView } from "react-intersection-observer";
 import NextImageLightbox from "@/components/NextImageLightbox";
+import GridBackground from "../components/GridBackground";
 
 function About() {
   const t = useTranslations("About");
@@ -41,6 +42,7 @@ function About() {
 
   return (
     <section className="bg-white relative">
+    <GridBackground/>
       {/* Header Section */}
       <motion.div
         className="py-16 bg-[#383838]"
@@ -91,7 +93,7 @@ function About() {
       </motion.div>
 
       {/* Content Section */}
-      <div className="py-16 md:py-24">
+      <div className="py-16 md:py-24 relative">
         <div className="container mx-auto px-4">
           <motion.div
             ref={ref}
