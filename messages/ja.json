@@ -32,7 +32,13 @@
   "Capability": {
     "title_metal": "金属",
     "description_metal": "最先端の金属工場で、私たちは原材料に命を吹き込み、それらをオーダーメイドの傑作へと彫刻しています",
-    "imageAlt_metal": "金属家具のあるモダンなリビングルーム"
+    "imageAlt_metal": "金属家具のあるモダンなリビングルーム",
+    "title_millwork": "木工",
+    "description_millwork": "最先端の木工施設で、原木を美しいカスタムメイドの作品に変えています",
+    "imageAlt_millwork": "カスタム木工を施したモダンな内装",
+    "title_powder": "粉体塗装",
+    "description_powder": "最新の粉体塗装施設で、金属表面に耐久性のある鮮やかな仕上げを施しています",
+    "imageAlt_powder": "粉体塗装された金属家具"
   },
   "Footer": {
     "companyName": "AD Fixtures株式会社",
