@@ -38,7 +38,8 @@
     "imageAlt_millwork": "Modern interior with custom millwork",
     "title_powder": "POWDER COATING",
     "description_powder": "In Our Cutting-Edge Powder Coating Facility, We Apply Durable and Vibrant Finishes to Metal Surfaces",
-    "imageAlt_powder": "Powder coated metal furniture"
+    "imageAlt_powder": "Powder coated metal furniture",
+    "clickImageToSeeMore": "Click Image to See More"
   },
   "WeAreCapable": {
     "title": "WE ARE CAPABLE",

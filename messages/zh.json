@@ -38,7 +38,8 @@
     "imageAlt_millwork": "带有定制木工的现代室内",
     "title_powder": "粉末涂装",
     "description_powder": "在我们尖端的粉末涂装设施中，我们为金属表面施加耐用且鲜艳的涂层",
-    "imageAlt_powder": "粉末涂装的金属家具"
+    "imageAlt_powder": "粉末涂装的金属家具",
+    "clickImageToSeeMore": "点击图片查看更多"
   },
   "WeAreCapable": {
     "title": "我们的能力",

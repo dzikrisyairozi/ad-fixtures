@@ -38,7 +38,8 @@
     "imageAlt_millwork": "カスタム木工を施したモダンな内装",
     "title_powder": "粉体塗装",
     "description_powder": "最新の粉体塗装施設で、金属表面に耐久性のある鮮やかな仕上げを施しています",
-    "imageAlt_powder": "粉体塗装された金属家具"
+    "imageAlt_powder": "粉体塗装された金属家具",
+    "clickImageToSeeMore": "画像をクリックして詳細を見る"
   },
   "WeAreCapable": {
     "title": "私たちの能力",
