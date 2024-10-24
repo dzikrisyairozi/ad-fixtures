@@ -47,7 +47,7 @@ function CallToActions() {
       className="relative h-[512px] overflow-hidden"
     >
       <Image
-        src="https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/einlpxd2henfqqzkxp4n.jpg"
+        src="https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/call_to_action.jpg"
         alt={t('backgroundImageAlt')}
         layout="fill"
         objectFit="cover"
