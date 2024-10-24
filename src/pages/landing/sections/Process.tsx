@@ -54,6 +54,18 @@ function Process() {
     visible: { opacity: 1, y: 0 },
   };
 
+  const typingVariants = {
+    hidden: { width: 0 },
+    visible: {
+      width: "auto",
+      transition: {
+        type: "tween",
+        duration: 1,
+        ease: "easeInOut",
+      },
+    },
+  };
+
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
@@ -108,7 +120,7 @@ function Process() {
           />
         ) : (
           <motion.div
-            className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-4"
+            className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-4 rounded-lg"
             variants={containerVariants}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
@@ -120,11 +132,46 @@ function Process() {
                 onClick={() => setSelectedId(step.number)}
                 variants={itemVariants}
                 transition={{ duration: 0.5 }}
-                className="bg-white p-6 rounded-md shadow-lg cursor-pointer aspect-square flex items-center justify-center"
+                className="bg-white p-6 rounded-lg shadow-lg cursor-pointer aspect-square flex items-center justify-center relative group"
               >
                 <h3 className="text-[128px] font-bold text-red-600">
                   {step.number}
                 </h3>
+                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 rounded-lg transition-opacity duration-300 flex items-center justify-center">
+                  <Image
+                    src={`https://res.cloudinary.com/ad-fixtures/image/upload/v1729792459/ad-fixtures/factory/process_${step.number}.jpg`}
+                    alt={step.title}
+                    layout="fill"
+                    objectFit="cover"
+                    className="absolute inset-0 z-10 rounded-lg"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 z-20 rounded-lg" />
+                  <div className="z-30 w-full h-full flex flex-col items-start justify-end p-4">
+                    <motion.h3
+                      className="text-[48px] font-bold text-white overflow-hidden whitespace-nowrap"
+                      initial="hidden"
+                      animate="visible"
+                      variants={typingVariants}
+                    >
+                      {step.number}
+                    </motion.h3>
+                    <motion.p
+                      className="text-[16px] font-semibold text-white overflow-hidden whitespace-nowrap"
+                      initial="hidden"
+                      animate="visible"
+                      variants={typingVariants}
+                    >
+                      {step.title}
+                    </motion.p>
+                  </div>
+                </div>
+                <style jsx>{`
+                  .group:hover {
+                    background-image: url(https://res.cloudinary.com/ad-fixtures/image/upload/v1729792459/ad-fixtures/factory/process_${step.number}.jpg);
+                    background-size: cover;
+                    background-position: center;
+                  }
+                `}</style>
               </motion.div>
             ))}
           </motion.div>
