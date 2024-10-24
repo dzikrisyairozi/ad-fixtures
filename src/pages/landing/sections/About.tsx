@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useInView } from "react-intersection-observer";
 import NextImageLightbox from "@/components/NextImageLightbox";
 import GridBackground from "../components/GridBackground";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
+const images = [
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab2.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab3.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab4.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab5.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab6.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab7.jpg",
+  "https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab8.jpg",
+];
 
 function About() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [loading, setLoading] = useState(true);
   const t = useTranslations("About");
 
   const stats = [
@@ -27,6 +41,15 @@ function About() {
     }
   }, [controls, inView]);
 
+  React.useEffect(() => {
+    // Simulate loading data
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // Simulate a 1-second loading time
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const fadeInUpVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -40,9 +63,17 @@ function About() {
     },
   };
 
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % (images.length - 1));
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + (images.length - 1)) % (images.length - 1));
+  };
+
   return (
     <section className="bg-white relative">
-    <GridBackground/>
+      <GridBackground />
       {/* Header Section */}
       <motion.div
         className="py-16 bg-[#383838]"
@@ -79,7 +110,9 @@ function About() {
                 className="text-center flex-1 min-w-[120px] mb-4 md:mb-0 relative"
                 variants={fadeInUpVariants}
               >
-                <div className="text-2xl md:text-3xl font-bold">{stat.value}</div>
+                <div className="text-2xl md:text-3xl font-bold">
+                  {stat.value}
+                </div>
                 <div className="text-xs md:text-sm text-gray-600">
                   {stat.label}
                 </div>
@@ -152,29 +185,38 @@ function About() {
               className="md:w-1/2 md:pl-8 order-1 md:order-2"
               variants={fadeInUpVariants}
             >
-              <div className="grid grid-cols-2 gap-4 mb-4">
-                <motion.div className="relative">
-                  <div className="absolute inset-0 bg-gray-300 rounded-lg"></div>
-                  <NextImageLightbox
-                    src="https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab2.jpg"
-                    width={280}
-                    height={200}
-                    alt={t("oneStopServiceImage1Alt")}
-                    className="w-full relative z-10 hover:transform hover:translate-x-[-16px] hover:translate-y-[-16px] transition-all duration-300 ease-in-out hover:scale-[102.5%]"
-                    imgClassName="rounded-lg w-full"
-                  />
-                </motion.div>
-                <motion.div className="relative">
-                  <div className="absolute inset-0 bg-gray-300 rounded-lg"></div>
-                  <NextImageLightbox
-                    src="https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/factory_ab3.jpg"
-                    width={280}
-                    height={200}
-                    alt={t("oneStopServiceImage2Alt")}
-                    className="w-full relative z-10 hover:transform hover:translate-x-[16px] hover:translate-y-[-16px] transition-all duration-300 ease-in-out hover:scale-[102.5%]"
-                    imgClassName="rounded-lg w-full"
-                  />
-                </motion.div>
+              <div className="container mx-auto px-4">
+                <div className="relative">
+                  <motion.div className="absolute left-[16px] top-1/2 transform -translate-y-1/2 z-20">
+                    <button onClick={prevSlide} className="bg-gray-300 p-2 rounded-full">
+                      <FaChevronLeft />
+                    </button>
+                  </motion.div>
+                  <motion.div className="absolute right-[16px] top-1/2 transform -translate-y-1/2 z-20">
+                    <button onClick={nextSlide} className="bg-gray-300 p-2 rounded-full">
+                      <FaChevronRight />
+                    </button>
+                  </motion.div>
+                  <div className="grid grid-cols-2 gap-4 mb-4 z-10">
+                    {images
+                      .slice(currentIndex, currentIndex + 2) // Show two images at a time
+                      .map((src, index) => (
+                        <motion.div key={index} className="relative">
+                          <div className="absolute inset-0 bg-gray-300 rounded-lg"></div>
+                          <NextImageLightbox
+                            src={src}
+                            width={280}
+                            height={200}
+                            alt={`Image ${currentIndex + index + 1}`} // Adjusted alt text
+                            className={`w-full relative z-10 hover:transform transition-all hover:translate-y-[-16px] duration-300 ease-in-out hover:scale-[102.5%] ${
+                              index === 0 ? "hover:translate-x-[-16px]" : "hover:translate-x-[16px]"
+                            }`}
+                            imgClassName="rounded-lg w-full"
+                          />
+                        </motion.div>
+                      ))}
+                  </div>
+                </div>
               </div>
             </motion.div>
           </motion.div>
