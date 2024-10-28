@@ -7,89 +7,89 @@
   "Index": {
     "companyName": "AD Fixtures 股份有限公司",
     "factoryImageAlt": "工厂图片 {number}",
-    "slogan": "除了定制制造，我们还将在过程中为客户提供适当的工程建议。我们努力为客户赢得最大利益。",
-    "knowUS": "了解我们"
+    "slogan": "我们以精密工程打造定制零售设备，提供专业见解，从项目开始到结束进行全程优化。我们的目标很简单：为您的品牌创造最大价值和影响力。",
+    "knowUS": "获取免费咨询"
   },
   "About": {
-    "headerTitle": "我们不仅制造，更注重工程",
-    "yearExperience": "办公室、工厂和仓库的平方米数",
-    "countrySpread": "与我们合作的品牌数",
-    "furnitureSold": "工业经验年数",
-    "variantFurniture": "为客户完成的店铺数量",
+    "headerTitle": "不止于制造—我们提供专业工程解决方案",
+    "yearExperience": "办公室、工厂和仓库总面积（平方米）",
+    "countrySpread": "领先品牌的信赖",
+    "furnitureSold": "年行业经验",
+    "variantFurniture": "家零售店铺完工",
     "industrialExperienceTitle": "工业经验",
-    "industrialExperienceDescription": "大多数需求都是定制的。凭借我们20年的经验，我们能够提供稳定和高质量的产品。",
+    "industrialExperienceDescription": "凭借20年的经验，我们提供定制解决方案，优化您的制造流程，在确保产品高品质的同时，降低成本并缩短交货周期。",
     "industrialExperienceImageAlt": "工业经验图片",
     "oneStopServiceTitle": "一站式服务",
-    "oneStopServiceDescription": "通过卫星供应商链，即使我们不拥有所有生产线，我们也能为客户提供一站式制造服务。这也是我们缩短交货时间的关键。",
+    "oneStopServiceDescription": "通过我们的卫星供应链，即使不拥有所有生产线，我们也能提供无缝的一站式制造服务。这一战略是缩短交货周期、确保更快交付的关键。",
     "oneStopServiceImage1Alt": "一站式服务图片1",
     "oneStopServiceImage2Alt": "一站式服务图片2"
   },
   "AdFixtures": {
     "backgroundImageAlt": "AD Fixtures 工厂",
-    "title": "为您打造无限可能的地方",
+    "title": "将您的想法转化为有效解决方案的地方",
     "description": "在 AD Fixtures，我们通过先进的制造能力和创新的设计解决方案，将您的愿景变为现实。"
   },
   "Capability": {
     "title_metal": "金属",
-    "description_metal": "在我们最先进的金属工厂里，我们为原材料注入生命，将它们雕琢成定制的杰作",
+    "description_metal": "在我们最先进的金属工厂，我们将原材料转化为定制解决方案，完全符合您的独特需求。",
     "imageAlt_metal": "带有金属家具的现代客厅",
     "title_millwork": "木工",
-    "description_millwork": "在我们先进的木工设施中，我们将原木转化为精美的定制作品",
+    "description_millwork": "在我们先进的木工设施中，我们将原木打造成精美的定制作品，旨在提升任何空间的品质。",
     "imageAlt_millwork": "带有定制木工的现代室内",
     "title_powder": "粉末涂装",
-    "description_powder": "在我们尖端的粉末涂装设施中，我们为金属表面施加耐用且鲜艳的涂层",
+    "description_powder": "在我们尖端的粉末涂装设施中，我们为金属表面提供持久、鲜艳的涂层，确保持久的品质。",
     "imageAlt_powder": "粉末涂装的金属家具",
     "clickImageToSeeMore": "点击图片查看更多"
   },
   "WeAreCapable": {
-    "title": "我们的能力",
+    "title": "我们的专业能力",
     "versatileSolutionTitle": "多样化解决方案",
     "versatileSolutionSubtitle": "多样材料解决方案",
-    "versatileSolutionDescription": "除了金属和木材，我们的能力还延伸到采购各种材料，为您提供多样化的选择。",
+    "versatileSolutionDescription": "我们的专业知识不仅限于金属和木材，能够根据您的项目需求采购广泛的材料。",
     "valueEngineeringTitle": "价值工程",
-    "valueEngineeringDescription": "通过价值工程，我们将创意转化为现实。为客户提供高品质和合理价格的产品。"
+    "valueEngineeringDescription": "通过价值工程将概念转化为现实，为客户提供高品质且价格合理的产品。"
   },
   "ProcessHub": {
-    "title": "我们的工厂不仅仅是一个生产设施，更是创意和工艺的中心",
-    "description": "这里让您一瞥我们团队如何将您的概念变为现实",
+    "title": "我们的工厂不仅是生产设施，更是创意与工艺的融合中心。",
+    "description": "探索我们专业团队如何协作，将您的构想变为现实。",
     "ctaButton": "探索我们的流程",
     "backgroundAlt": "穿着防护装备的工厂工人"
   },
   "Process": {
-    "title": "见证您的创意",
-    "description": "基于您的愿景，我们的专业团队将其转化为实际的原型。",
+    "title": "让创意成真",
+    "description": "我们的专业团队将您的愿景转化为实体原型，让概念变为现实。",
     "backgroundAlt": "工厂流程图片",
     "step1": {
-      "title": "ニーズを満たす",
-      "description": "まずはお客様のニーズを理解することから始めましょう：\n1. 仕様\n2. 構造の詳細\n3. 希望の材料と仕上げ\n4. プロジェクト予算\nお客様のビジョンが私たちの優先事項であり、すべての要件を満たすソリューションをカスタマイズいたします。"
+      "title": "深入理解需求",
+      "description": "我们从评估您的需求开始：规格、施工细节、首选材料和项目预算。您的愿景是我们的首要任务，我们致力于打造满足您所有期望的定制解决方案。"
     },
     "step2": {
-      "title": "価値工学がソリューションを導く",
-      "description": "私たちは単に製品を作るだけではありません。\n綿密な価値工学プロセスを通じて、お客様のアイデアを現実に変え、革新性とコスト効率を完璧に融合させます。"
+      "title": "价值工程创造最优解决方案",
+      "description": "我们不仅仅是生产产品；我们精密的价值工程帮助客户在过往项目中节省高达20%的成本。我们将您的想法转化为现实，完美融合创新与成本效益。"
     },
     "step3": {
-      "title": "精密な生産",
-      "description": "最高品質と正確な納期をお客様にお届けします。\n製品が当社の施設を出る前に、お客様の期待を超えることを確認するため、徹底的な品質チェックを行います。"
+      "title": "精准生产",
+      "description": "我们提供一流的品质和精确的交货期。在任何产品离开我们的工厂之前，都会经过严格的质量检查，确保超越您的期望。"
     },
     "step4": {
-      "title": "製品を超えたパートナーシップ",
-      "description": "お客様との長期的なパートナーシップの構築を目指し、単なる販売だけでなく、お客様の成功をサポートすることに注力しています。"
+      "title": "超越产品的伙伴关系",
+      "description": "我们致力于与客户建立持久的合作关系。我们的承诺不仅限于产品销售；我们将全程助力您取得成功。"
     }
   },
   "WorksPortfolio": {
-    "skechersDescription": "为Skechers提供10年的制造服务，我们为Skechers开发了定制的RC鞋。",
-    "ispoDescription": "这种免工具组装解决方案允许快速高效地构建固定装置，为您的商店提供快速有效的设置。",
-    "hokaDescription": "色彩鲜艳的固定装置为商店注入了充满活力和精力的氛围，而易于移动的展示架提供了多种方式展示产品的灵活选择。",
-    "bvlgariDescription": "与GJ装饰合作，我们有机会为台湾宝格丽商店的外墙进行重建。",
-    "bmaDescription": "为支持BMA集团制造3个品牌的固定装置，我们在阿联酋地区为客户开设了150家商店。",
-    "aldoDescription": "与ALDO合作三代店铺固定装置，我们很荣幸能参与这些成就。"
+    "skechersDescription": "十多年来，我们与SKECHERS保持合作伙伴关系，通过提供定制化制造服务，包括提升顾客体验的定制陈列设备，成功开设近60家店铺。",
+    "ispoDescription": "我们的免工具组装解决方案实现快速高效的陈列设备安装，简化店铺开业流程，提升运营效率。",
+    "hokaDescription": "我们为HOKA店铺打造充满活力的彩色陈列设备，配合易于移动的展示架，为产品提供灵活多样的展示方案。",
+    "bvlgariDescription": "与GJ装饰合作，我们承担了台湾BVLGARI店铺外墙的重建工程，提升视觉吸引力，彰显品牌奢华形象。",
+    "bmaDescription": "为支持BMA国际在阿联酋的发展，我们为其三个品牌制造陈列设备，成功开设150家店铺，提升市场影响力，吸引更多顾客。",
+    "aldoDescription": "与ALDO合作三代店铺陈列设备，我们以创新设计满足其不断发展的需求，为其持续成功做出贡献而感到自豪。"
   },
   "CallToActions": {
     "backgroundImageAlt": "工厂内部",
-    "title": "了解我们如何共同创造无限可能",
-    "description": "发现新闻、优惠等更多信息",
+    "title": "一起探索无限可能",
+    "description": "请留下您的邮箱，我们将安排通话时间，共同探讨合作机会。",
     "emailPlaceholder": "输入您的电子邮箱",
-    "subscribeButton": "订阅"
+    "subscribeButton": "联系我们"
   },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
