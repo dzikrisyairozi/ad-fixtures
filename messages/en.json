@@ -7,89 +7,89 @@
   "Index": {
     "companyName": "AD FIXTURES INC.",
     "factoryImageAlt": "Factory image {number}",
-    "slogan": "BESIDES CUSTOM MANUFACTURING, WE WILL PROVIDE CLIENTS WITH PROPER ENGINEERING SUGGESTIONS DURING THE PROCESS. WE TRY TO EARN THE MAXIMUM BENEFIT FOR CLIENTS.",
-    "knowUS": "KNOW US"
+    "slogan": "We deliver custom retail fixtures with precision engineering, providing tailored insights that optimize your project from start to finish. Our goal is simple: maximize value and impact for your brand.",
+    "knowUS": "Get Your Free Consultation"
   },
   "About": {
-    "headerTitle": "NOT ONLY WE MAKE, WE ENGINEERING",
-    "yearExperience": "SQ. METERS OF OFFICE, FACTORY, AND WAREHOUSE",
-    "countrySpread": "BRANDS WORK WITH US",
-    "furnitureSold": "YEARS OF INDUSTRIAL EXPERIENCES",
-    "variantFurniture": "STORES WE COMPLETED FOR CLIENT",
+    "headerTitle": "More than just manufacturing—we provide expert engineering.",
+    "yearExperience": "COMBINED OFFICE, FACTORY, AND WAREHOUSE SPACE (SQ. METERS)",
+    "countrySpread": "LEADING BRANDS TRUST US",
+    "furnitureSold": "YEARS OF INDUSTRIAL EXPERIENCE",
+    "variantFurniture": "RETAIL STORES COMPLETED",
     "industrialExperienceTitle": "INDUSTRIAL EXPERIENCE",
-    "industrialExperienceDescription": "Most of requirements are customized. By our 20-year experience, stable and high quality products can be delivered.",
+    "industrialExperienceDescription": "With 20 years of experience, we deliver custom solutions that optimize your manufacturing process, ensuring high-quality products while reducing costs and lead times.",
     "industrialExperienceImageAlt": "Industrial Experience Image",
     "oneStopServiceTitle": "ONE-STOP SERVICE",
-    "oneStopServiceDescription": "With satellite supplier chain, we are able to provide clients with one-stop manufacturing service even if we don't own all production line. This is also the key point for us to shorten lead time.",
+    "oneStopServiceDescription": "With our satellite supply chain, we offer a seamless, one-stop manufacturing service, even without owning every production line. This strategy is key to reducing lead times and ensuring faster delivery.",
     "oneStopServiceImage1Alt": "One-Stop Service Image 1",
     "oneStopServiceImage2Alt": "One-Stop Service Image 2"
   },
   "AdFixtures": {
     "backgroundImageAlt": "AD Fixtures factory",
-    "title": "WHERE WE CRAFT LIMITLESS POSSIBILITIES JUST FOR YOU",
+    "title": "Where We Transform Your Ideas into Effective Solutions",
     "description": "At AD Fixtures, we turn your vision into reality with our state-of-the-art manufacturing capabilities and innovative design solutions."
   },
   "Capability": {
     "title_metal": "METAL",
-    "description_metal": "Within Our State-Of-The-Art Metal Factory, We Breathe Life Into Raw Materials, Sculpting Them Into Bespoke Masterpieces",
+    "description_metal": "Our state-of-the-art metal factory transforms raw materials into custom solutions, tailored to your unique needs.",
     "imageAlt_metal": "Modern living room with metal furniture",
     "title_millwork": "MILLWORK",
-    "description_millwork": "Our Advanced Millwork Facility Transforms Raw Wood into Exquisite, Custom-Crafted Pieces",
+    "description_millwork": "Our advanced millwork facility crafts exquisite, bespoke pieces from raw wood, designed to enhance any space.",
     "imageAlt_millwork": "Modern interior with custom millwork",
     "title_powder": "POWDER COATING",
-    "description_powder": "In Our Cutting-Edge Powder Coating Facility, We Apply Durable and Vibrant Finishes to Metal Surfaces",
+    "description_powder": "In our cutting-edge powder coating facility, we deliver durable, vibrant finishes that elevate metal surfaces and ensure lasting quality.",
     "imageAlt_powder": "Powder coated metal furniture",
     "clickImageToSeeMore": "Click Image to See More"
   },
   "WeAreCapable": {
-    "title": "WE ARE CAPABLE",
-    "versatileSolutionTitle": "VERSATILE SOLUTION",
+    "title": "Our Capabilities",
+    "versatileSolutionTitle": "VERSATILE SOLUTIONS",
     "versatileSolutionSubtitle": "Solutions for Diverse Material",
-    "versatileSolutionDescription": "Beyond metal and wood, our capabilities extend to sourcing a myriad of materials, offering you a palette of options.",
+    "versatileSolutionDescription": "Our expertise extends beyond metal and wood, allowing us to source a wide range of materials to suit your project needs.",
     "valueEngineeringTitle": "VALUE ENGINEERING",
-    "valueEngineeringDescription": "Through value engineering, we transform ideas into reality. High quality and fair price are delivered to clients."
+    "valueEngineeringDescription": "We turn concepts into reality through value engineering, ensuring high quality at fair prices for our clients."
   },
   "ProcessHub": {
-    "title": "OUR FACTORY IS NOT JUST A PRODUCTION FACILITY, BUT A HUB OF CREATIVITY AND CRAFTSMANSHIP",
-    "description": "HERE'S A GLIMPSE INTO HOW WE, AS A TEAM, BRING YOUR CONCEPTS TO LIFE",
+    "title": "Our factory is not just a production facility; it's a hub of creativity and craftsmanship.",
+    "description": "Discover how our dedicated team collaborates to bring your concepts to life.",
     "ctaButton": "EXPLORE OUR PROCESS",
     "backgroundAlt": "Factory worker in protective gear"
   },
   "Process": {
-    "title": "Witness Your Idea",
-    "description": "Based on your vision, our skilled team turns it into a tangible prototype.",
+    "title": "Bring Your Idea to Life",
+    "description": "Our skilled team transforms your vision into a tangible prototype, turning concepts into reality.",
     "backgroundAlt": "Factory process image",
     "step1": {
-      "title": "MEET YOUR NEEDS",
-      "description": "Let's start by understanding your needs:\n1.Specifications\n2.Construction details\n3.Preferred material and finish\n4.Project budget\nYour vision is our priority, and we're here to tailor a solution that ticks all your boxes."
+      "title": "Understanding Your Needs",
+      "description": "We begin by assessing your requirements: specifications, construction details, preferred materials, and project budget. Your vision is our priority, and we're dedicated to crafting a tailored solution that meets all your expectations."
     },
     "step2": {
-      "title": "VALUE ENGINEERING LEADS TO SOLUTION",
-      "description": "We are not only making goods.\nThrough our meticulous value engineering processes, we transform your ideas into reality, seamlessly merging innovation and cost-effectiveness."
+      "title": "Value Engineering for Optimal Solutions",
+      "description": "We don't just produce goods; our meticulous value engineering has helped clients cut costs by up to 20% on past projects. We turn your ideas into reality, seamlessly blending innovation with cost-effectiveness."
     },
     "step3": {
-      "title": "PRECISION IN PRODUCTION",
-      "description": "Top-notch quality and accurate lead-time are delivered to clients.\nBefore anything leaves our facility, it undergoes a thorough quality check to ensure it exceeds your expectations."
+      "title": "Precision in Production",
+      "description": "We deliver top-notch quality and precise lead times. Before any product leaves our facility, it undergoes rigorous quality checks to ensure it exceeds your expectations."
     },
     "step4": {
-      "title": "PARTNERSHIP BEYOND PRODUCTS",
-      "description": "Aiming to build lasting partnerships with clients, we're not just here to sell; we're here to support your success."
+      "title": "Partnership Beyond Products",
+      "description": "We strive to build lasting partnerships with our clients. Our commitment goes beyond selling products; we're dedicated to supporting your success every step of the way."
     }
   },
   "WorksPortfolio": {
-    "skechersDescription": "Providing Skechers with manufacturing service for 10 years, we developed custom RC shoes for Skechers.",
-    "ispoDescription": "This tool-free assembly solution allows for swift and efficient construction of fixtures, facilitating a quick and effective setup for your store.",
-    "hokaDescription": "Vividly colored fixtures infuse the store with a vibrant and energetic atmosphere, while the easily movable display shelves offer versatile presentation options for showcasing products in a variety of ways.",
-    "bvlgariDescription": "To cooperate with GJ Decoration, we have chance to do re-construction for outside wall of Taiwan BVLGARI store.",
-    "bmaDescription": "To support BMA group in manufacturing fixtures for 3 brands, we opened 150 stores for client in UAE area.",
-    "aldoDescription": "Cooperating with ALDO for 3 generation of store fixtures, we are honored to participate in those achievement."
+    "skechersDescription": "For over 10 years, we have partnered with SKECHERS, successfully opening nearly 60 stores by providing tailored manufacturing services, including customized fixtures that enhance the customer experience.",
+    "ispoDescription": "Our tool-free assembly solution enables swift and efficient fixture construction, allowing for quick setups that streamline the store opening process and enhance operational efficiency.",
+    "hokaDescription": "We created vividly colored fixtures that bring a vibrant and energetic atmosphere to HOKA stores, complemented by easily movable display shelves that offer versatile presentation options for products.",
+    "bvlgariDescription": "In collaboration with GJ Decoration, we undertook the reconstruction of the exterior wall of the BVLGARI store in Taiwan, enhancing its visual appeal and aligning with the brand's luxury image.",
+    "bmaDescription": "To support BMA International in the UAE, we manufactured fixtures for three brands, successfully opening 150 stores that elevate their market presence and attract customers.",
+    "aldoDescription": "Partnering with ALDO for three generations of store fixtures, we take pride in contributing to their ongoing success with innovative designs that meet their evolving needs."
   },
   "CallToActions": {
     "backgroundImageAlt": "Factory interior",
-    "title": "FIND OUT HOW WE CAN CREATE ENDLESS POSSIBILITIES TOGETHER",
-    "description": "DISCOVER NEWS, OFFERS AND MORE",
+    "title": "Explore Endless Possibilities Together",
+    "description": "Leave your email below, and we'll reach out to schedule a call and explore how we can work together.",
     "emailPlaceholder": "Enter your email",
-    "subscribeButton": "SUBSCRIBE"
+    "subscribeButton": "Get in Touch"
   },
   "Footer": {
     "companyName": "AD Fixtures Inc.",

@@ -72,7 +72,7 @@ function About() {
   };
 
   return (
-    <section className="bg-white relative">
+    <section className="bg-white relative" id="about">
       <GridBackground />
       {/* Header Section */}
       <motion.div
@@ -83,7 +83,7 @@ function About() {
       >
         <div className="container mx-auto px-4">
           <motion.h2
-            className="text-3xl md:text-4xl font-bold text-center text-white mb-8"
+            className="text-3xl md:text-4xl font-bold text-center text-white mb-8 uppercase"
             variants={fadeInUpVariants}
             initial="hidden"
             animate="visible"
@@ -110,10 +110,10 @@ function About() {
                 className="text-center flex-1 min-w-[120px] mb-4 md:mb-0 relative"
                 variants={fadeInUpVariants}
               >
-                <div className="text-2xl md:text-3xl font-bold">
+                <div className="text-2xl md:text-3xl font-bold text-black">
                   {stat.value}
                 </div>
-                <div className="text-xs md:text-sm text-gray-600">
+                <div className="text-xs text-gray-600">
                   {stat.label}
                 </div>
                 {index < stats.length - 1 && (
@@ -155,7 +155,7 @@ function About() {
               className="md:w-1/2 md:pl-8"
               variants={fadeInUpVariants}
             >
-              <h3 className="text-3xl md:text-4xl font-extrabold mb-4">
+              <h3 className="text-3xl md:text-4xl font-extrabold text-black mb-4">
                 {t("industrialExperienceTitle")}
               </h3>
               <p className="text-gray-600">
@@ -174,7 +174,7 @@ function About() {
               className="md:w-1/2 md:pr-8 order-2 md:order-1"
               variants={fadeInUpVariants}
             >
-              <h3 className="text-3xl md:text-4xl font-extrabold mb-4">
+              <h3 className="text-3xl md:text-4xl font-extrabold text-black mb-4">
                 {t("oneStopServiceTitle")}
               </h3>
               <p className="text-gray-600 mb-6 md:mb-0">

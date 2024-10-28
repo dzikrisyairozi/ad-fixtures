@@ -40,6 +40,7 @@ function CallToActions() {
 
   return (
     <motion.div
+      id="contact-us"
       ref={ref}
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}

@@ -70,6 +70,7 @@ function Process() {
 
   return (
     <section
+      id="solution"
       ref={ref}
       className="relative py-20 overflow-hidden h-[60vh] md:h-screen flex items-center"
     >
@@ -100,7 +101,7 @@ function Process() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          className="text-4xl md:text-5xl font-extrabold text-black mb-4 uppercase text-center md:text-left"
+          className="text-4xl md:text-5xl font-extrabold text-white mb-4 uppercase text-center md:text-left"
         >
           {t("title")}
         </motion.h2>
@@ -108,7 +109,7 @@ function Process() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-lg md:text-xl text-gray-800 mb-10 text-center md:text-left"
+          className="text-lg md:text-xl text-gray-200 mb-10 text-center md:text-left"
         >
           {t("description")}
         </motion.p>
@@ -219,7 +220,7 @@ function Process() {
                   }
                 </motion.h3>
                 <motion.h4
-                  className="text-2xl font-semibold mb-2"
+                  className="text-2xl font-semibold mb-2 text-black"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3, duration: 0.3 }}

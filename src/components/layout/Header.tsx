@@ -31,7 +31,7 @@ export default function Header({ locale }: { locale: string }) {
   const links = [
     { href: "#about", label: t('about') },
     { href: "#solution", label: t('solution') },
-    { href: "#contact", label: t('contactUs') },
+    { href: "#contact-us", label: t('contactUs') },
   ];
 
   useEffect(() => {

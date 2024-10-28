@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import {
   FaYoutube,
@@ -13,35 +14,35 @@ import { useTranslations } from 'next-intl';
 
 const socialLinks = [
   {
-    icon: FaYoutube,
-    href: "https://www.youtube.com/user/ADFixtures",
-    hoverColor: "hover:text-[#FF0000]",
-  },
-  {
     icon: FaLinkedin,
     href: "https://www.linkedin.com/company/adfixtures/",
     hoverColor: "hover:text-[#0A66C2]",
   },
-  {
-    icon: FaPinterest,
-    href: "https://www.pinterest.de/adfixtures/",
-    hoverColor: "hover:text-[#BD081C]",
-  },
-  {
-    icon: FaFacebook,
-    href: "https://www.facebook.com/adfixtures.tw",
-    hoverColor: "hover:text-[#1877F2]",
-  },
-  {
-    icon: FaInstagram,
-    href: "https://www.instagram.com/adfixturesinc/",
-    hoverColor: "hover:text-[#E4405F]",
-  },
-  {
-    icon: FaTwitter,
-    href: "https://x.com/AD_Fixtures",
-    hoverColor: "hover:text-[#1DA1F2]",
-  },
+  // {
+  //   icon: FaYoutube,
+  //   href: "https://www.youtube.com/user/ADFixtures",
+  //   hoverColor: "hover:text-[#FF0000]",
+  // },
+  // {
+  //   icon: FaPinterest,
+  //   href: "https://www.pinterest.de/adfixtures/",
+  //   hoverColor: "hover:text-[#BD081C]",
+  // },
+  // {
+  //   icon: FaFacebook,
+  //   href: "https://www.facebook.com/adfixtures.tw",
+  //   hoverColor: "hover:text-[#1877F2]",
+  // },
+  // {
+  //   icon: FaInstagram,
+  //   href: "https://www.instagram.com/adfixturesinc/",
+  //   hoverColor: "hover:text-[#E4405F]",
+  // },
+  // {
+  //   icon: FaTwitter,
+  //   href: "https://x.com/AD_Fixtures",
+  //   hoverColor: "hover:text-[#1DA1F2]",
+  // },
 ];
 
 export default function Footer() {
@@ -119,7 +120,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="lg:w-3/5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-              {footerLinks.map((column, index) => (
+              {/* {footerLinks.map((column, index) => (
                 <div key={index}>
                   <h3 className="text-lg font-semibold mb-4">{column.title}</h3>
                   <ul className="space-y-2">
@@ -135,7 +136,7 @@ export default function Footer() {
                     ))}
                   </ul>
                 </div>
-              ))}
+              ))} */}
             </div>
           </div>
           <div className="mt-8 md:mt-12 pt-8 border-t border-gray-700">

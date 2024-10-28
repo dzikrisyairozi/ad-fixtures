@@ -150,7 +150,7 @@ function Capability() {
             </AnimatePresence>
           </motion.div>
           <motion.div variants={itemVariants} className="md:w-1/2 md:pl-12">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-black">
               {t("title_metal")}
             </h2>
             <p className="text-lg text-gray-600 mb-6 w-3/4">
@@ -161,7 +161,7 @@ function Capability() {
                 initial="hidden"
                 animate="visible"
                 variants={typingVariants}
-                className="overflow-hidden whitespace-nowrap"
+                className="overflow-hidden whitespace-nowrap text-black"
               >
                 {t("clickImageToSeeMore")}
               </motion.span>
@@ -189,7 +189,7 @@ function Capability() {
       <div className="container mx-auto px-4 mt-8">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between">
           <motion.div variants={itemVariants} className="md:w-1/2 md:pl-12">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-black">
               {t("title_millwork")}
             </h2>
             <p className="text-lg text-gray-600 mb-6 w-3/4">
@@ -200,7 +200,7 @@ function Capability() {
                 initial="hidden"
                 animate="visible"
                 variants={typingVariants}
-                className="overflow-hidden whitespace-nowrap"
+                className="overflow-hidden whitespace-nowrap text-black"
               >
                 {t("clickImageToSeeMore")}
               </motion.span>
@@ -324,7 +324,7 @@ function Capability() {
             </AnimatePresence>
           </motion.div>
           <motion.div variants={itemVariants} className="md:w-1/2 md:pl-12">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-black">
               {t("title_powder")}
             </h2>
             <p className="text-lg text-gray-600 mb-6 w-3/4">
@@ -335,7 +335,7 @@ function Capability() {
                 initial="hidden"
                 animate="visible"
                 variants={typingVariants}
-                className="overflow-hidden whitespace-nowrap"
+                className="overflow-hidden whitespace-nowrap text-black"
               >
                 {t("clickImageToSeeMore")}
               </motion.span>

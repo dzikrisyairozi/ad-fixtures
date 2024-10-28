@@ -37,7 +37,7 @@ function WeAreCapable() {
       >
         <motion.h2
           variants={itemVariants}
-          className="text-4xl font-extrabold text-center mb-12"
+          className="text-4xl font-extrabold text-center mb-12 text-black uppercase"
         >
           {t('title')}
         </motion.h2>
@@ -45,15 +45,15 @@ function WeAreCapable() {
           <motion.div variants={itemVariants} className="flex flex-col items-center md:flex-row md:items-start text-justify md:text-left">
             <FiBox className="text-[96px] text-gray-400 mr-6 mt-1 flex-shrink-0 mb-6 md:mb-0" />
             <div>
-              <p className="text-gray-900 text-sm">&quot;{t('versatileSolutionSubtitle')}&quot;</p>
-              <h3 className="text-xl font-semibold mb-2">{t('versatileSolutionTitle')}</h3>
+              {/* <p className="text-gray-900 text-sm">&quot;{t('versatileSolutionSubtitle')}&quot;</p> */}
+              <h3 className="text-xl font-semibold mb-2 text-black">{t('versatileSolutionTitle')}</h3>
               <p className="text-gray-600">{t('versatileSolutionDescription')}</p>
             </div>
           </motion.div>
           <motion.div variants={itemVariants} className="flex flex-col items-center md:flex-row md:items-start text-justify md:text-left">
             <FiTool className="text-[96px] text-gray-400 mr-6 mt-1 flex-shrink-0 mb-4 md:mb-0" />
             <div>
-              <h3 className="text-xl font-semibold mb-2">{t('valueEngineeringTitle')}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">{t('valueEngineeringTitle')}</h3>
               <p className="text-gray-600">{t('valueEngineeringDescription')}</p>
             </div>
           </motion.div>

@@ -46,7 +46,7 @@ function ProcessHub() {
           <div className="md:w-1/2">
             <motion.h2
               variants={itemVariants}
-              className="text-2xl md:text-5xl font-bold text-white mb-4 text-center md:text-left"
+              className="text-2xl md:text-5xl font-bold text-white mb-4 text-center md:text-left uppercase"
             >
               {t('title')}
             </motion.h2>
