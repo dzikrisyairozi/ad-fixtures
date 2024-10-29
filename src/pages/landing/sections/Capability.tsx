@@ -55,17 +55,17 @@ function Capability() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
 
-  const typingVariants = {
-    hidden: { width: 0 },
-    visible: {
-      width: "auto",
-      transition: {
-        type: "tween",
-        duration: 2,
-        ease: "easeInOut",
-      },
-    },
-  };
+  // const typingVariants = {
+  //   hidden: { width: 0 },
+  //   visible: {
+  //     width: "auto",
+  //     transition: {
+  //       type: "tween",
+  //       duration: 2,
+  //       ease: "easeInOut",
+  //     },
+  //   },
+  // };
 
   const nextMetalImage = async () => {
     if (isAnimating) return;
@@ -135,16 +135,25 @@ function Capability() {
                     transformOrigin: "top right",
                   }}
                 >
-                  <Image
-                    src={src}
-                    alt={`${t("imageAlt_metal")} ${index + 1}`}
-                    width={600}
-                    height={400}
-                    className={clsxm(
-                      'rounded-md shadow-lg',
-                      'transition duration-200 ease-in-out hover:scale-[102.5%]'
+                  <div className="relative group">
+                    <Image
+                      src={src}
+                      alt={`${t("imageAlt_metal")} ${index + 1}`}
+                      width={600}
+                      height={400}
+                      className={clsxm(
+                        'rounded-md shadow-lg',
+                        'transition duration-200 ease-in-out hover:scale-[102.5%]'
+                      )}
+                    />
+                    {index === 0 && (
+                      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-md flex items-center justify-center">
+                        <p className="text-white text-lg font-medium">
+                          {t("clickImageToSeeMore")}
+                        </p>
+                      </div>
                     )}
-                  />
+                  </div>
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -156,7 +165,7 @@ function Capability() {
             <p className="text-lg text-gray-600 mb-6 w-3/4">
               {t("description_metal")}
             </p>
-            <div className="p-4 border border-gray-700 rounded-md inline-flex border-dashed text-xs relative overflow-hidden">
+            {/* <div className="p-4 border border-gray-700 rounded-md inline-flex border-dashed text-xs relative overflow-hidden">
               <motion.span
                 initial="hidden"
                 animate="visible"
@@ -166,7 +175,7 @@ function Capability() {
                 {t("clickImageToSeeMore")}
               </motion.span>
               <div className="absolute inset-0 border-b-2 border-red-500 animate-border" />
-            </div>
+            </div> */}
 
             <style jsx>{`
               @keyframes borderAnimation {
@@ -195,7 +204,7 @@ function Capability() {
             <p className="text-lg text-gray-600 mb-6 w-3/4">
               {t("description_millwork")}
             </p>
-            <div className="p-4 border border-gray-700 rounded-md inline-flex border-dashed text-xs relative overflow-hidden">
+            {/* <div className="p-4 border border-gray-700 rounded-md inline-flex border-dashed text-xs relative overflow-hidden">
               <motion.span
                 initial="hidden"
                 animate="visible"
@@ -205,7 +214,7 @@ function Capability() {
                 {t("clickImageToSeeMore")}
               </motion.span>
               <div className="absolute inset-0 border-b-2 border-red-500 animate-border" />
-            </div>
+            </div> */}
 
             <style jsx>{`
               @keyframes borderAnimation {
@@ -255,16 +264,25 @@ function Capability() {
                     transformOrigin: "top right",
                   }}
                 >
-                  <Image
-                    src={src}
-                    alt={`${t("imageAlt_millwork")} ${index + 1}`}
-                    width={600}
-                    height={400}
-                    className={clsxm(
-                      'rounded-md shadow-lg',
-                      'transition duration-200 ease-in-out hover:scale-[102.5%]'
+                  <div className="relative group">
+                    <Image
+                      src={src}
+                      alt={`${t("imageAlt_metal")} ${index + 1}`}
+                      width={600}
+                      height={400}
+                      className={clsxm(
+                        'rounded-md shadow-lg',
+                        'transition duration-200 ease-in-out hover:scale-[102.5%]'
+                      )}
+                    />
+                    {index === 0 && (
+                      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-md flex items-center justify-center">
+                        <p className="text-white text-lg font-medium">
+                          {t("clickImageToSeeMore")}
+                        </p>
+                      </div>
                     )}
-                  />
+                  </div>
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -309,16 +327,25 @@ function Capability() {
                     transformOrigin: "top right",
                   }}
                 >
-                  <Image
-                    src={src}
-                    alt={`${t("imageAlt_powder")} ${index + 1}`}
-                    width={600}
-                    height={400}
-                    className={clsxm(
-                      'rounded-md shadow-lg',
-                      'transition duration-200 ease-in-out hover:scale-[102.5%]'
+                  <div className="relative group">
+                    <Image
+                      src={src}
+                      alt={`${t("imageAlt_metal")} ${index + 1}`}
+                      width={600}
+                      height={400}
+                      className={clsxm(
+                        'rounded-md shadow-lg',
+                        'transition duration-200 ease-in-out hover:scale-[102.5%]'
+                      )}
+                    />
+                    {index === 0 && (
+                      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-200 rounded-md flex items-center justify-center">
+                        <p className="text-white text-lg font-medium">
+                          {t("clickImageToSeeMore")}
+                        </p>
+                      </div>
                     )}
-                  />
+                  </div>
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -330,7 +357,7 @@ function Capability() {
             <p className="text-lg text-gray-600 mb-6 w-3/4">
               {t("description_powder")}
             </p>
-            <div className="p-4 border border-gray-700 rounded-md inline-flex border-dashed text-xs relative overflow-hidden">
+            {/* <div className="p-4 border border-gray-700 rounded-md inline-flex border-dashed text-xs relative overflow-hidden">
               <motion.span
                 initial="hidden"
                 animate="visible"
@@ -340,7 +367,7 @@ function Capability() {
                 {t("clickImageToSeeMore")}
               </motion.span>
               <div className="absolute inset-0 border-b-2 border-red-500 animate-border" />
-            </div>
+            </div> */}
 
             <style jsx>{`
               @keyframes borderAnimation {
