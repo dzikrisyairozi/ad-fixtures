@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useDragControls } from "framer-motion";
+import Image from "next/image";
 
 interface ProcessStep {
   number: string;
@@ -62,11 +63,32 @@ export const MobileCarousel: React.FC<MobileCarouselProps> = ({
               <motion.div
                 layoutId={`process-step-${processSteps[index].number}`}
                 onClick={() => setSelectedId(processSteps[index].number)}
-                className="bg-white p-6 rounded-md shadow-lg cursor-pointer aspect-square flex items-center justify-center w-48 h-48"
+                className="relative rounded-lg shadow-lg cursor-pointer aspect-square w-48 h-48 group"
               >
-                <h3 className="text-7xl font-bold text-red-600">
-                  {processSteps[index].number}
-                </h3>
+                <div className="absolute inset-0 z-10">
+                  <Image
+                    src={`https://res.cloudinary.com/ad-fixtures/image/upload/v1729792459/ad-fixtures/factory/process_${processSteps[index].number}.jpg`}
+                    alt={processSteps[index].title}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-lg"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg" />
+                  <div className="absolute inset-0 z-20 w-full h-full flex flex-col items-start justify-end p-4">
+                    <h3 className="text-[32px] font-bold text-white">
+                      {processSteps[index].number}
+                    </h3>
+                    <p className="text-[14px] font-semibold text-white">
+                      {processSteps[index].title}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20 rounded-lg">
+                  <h3 className="text-[64px] font-bold text-red-600">
+                    {processSteps[index].number}
+                  </h3>
+                </div>
               </motion.div>
             </motion.div>
           );

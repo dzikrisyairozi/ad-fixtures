@@ -101,7 +101,7 @@ function Process() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          className="text-4xl md:text-5xl font-extrabold text-white mb-4 uppercase text-center md:text-left"
+          className="text-4xl md:text-5xl font-extrabold text-black mb-4 uppercase text-center md:text-left"
         >
           {t("title")}
         </motion.h2>
@@ -109,7 +109,7 @@ function Process() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-lg md:text-xl text-gray-200 mb-10 text-center md:text-left"
+          className="text-lg md:text-xl text-gray-600 mb-10 text-center md:text-left"
         >
           {t("description")}
         </motion.p>
@@ -133,21 +133,18 @@ function Process() {
                 onClick={() => setSelectedId(step.number)}
                 variants={itemVariants}
                 transition={{ duration: 0.5 }}
-                className="bg-white p-6 rounded-lg shadow-lg cursor-pointer aspect-square flex items-center justify-center relative group"
+                className="relative rounded-lg shadow-lg cursor-pointer aspect-square group"
               >
-                <h3 className="text-[128px] font-bold text-red-600">
-                  {step.number}
-                </h3>
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 rounded-lg transition-opacity duration-300 flex items-center justify-center">
+                <div className="absolute inset-0 z-10">
                   <Image
                     src={`https://res.cloudinary.com/ad-fixtures/image/upload/v1729792459/ad-fixtures/factory/process_${step.number}.jpg`}
                     alt={step.title}
                     layout="fill"
                     objectFit="cover"
-                    className="absolute inset-0 z-10 rounded-lg"
+                    className="rounded-lg"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 z-20 rounded-lg" />
-                  <div className="z-30 w-full h-full flex flex-col items-start justify-end p-4">
+                  <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg" />
+                  <div className="absolute inset-0 z-20 w-full h-full flex flex-col items-start justify-end p-4">
                     <motion.h3
                       className="text-[48px] font-bold text-white overflow-hidden whitespace-nowrap"
                       initial="hidden"
@@ -166,13 +163,12 @@ function Process() {
                     </motion.p>
                   </div>
                 </div>
-                <style jsx>{`
-                  .group:hover {
-                    background-image: url(https://res.cloudinary.com/ad-fixtures/image/upload/v1729792459/ad-fixtures/factory/process_${step.number}.jpg);
-                    background-size: cover;
-                    background-position: center;
-                  }
-                `}</style>
+
+                <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20 rounded-lg">
+                  <h3 className="text-[128px] font-bold text-red-600">
+                    {step.number}
+                  </h3>
+                </div>
               </motion.div>
             ))}
           </motion.div>
