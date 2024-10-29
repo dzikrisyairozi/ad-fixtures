@@ -1,8 +1,8 @@
 {
   "header": {
-    "about": "关于",
-    "solution": "解决方案",
-    "contactUs": "联系我们"
+    "about": "会社概要",
+    "solution": "ソリューション",
+    "contactUs": "お問い合わせ"
   },
   "Index": {
     "companyName": "AD フィクスチャーズ株式会社",
@@ -50,7 +50,7 @@
     "valueEngineeringDescription": "バリューエンジニアリングを通じてコンセプトを現実に変え、お客様に適正価格で高品質な製品を提供します。"
   },
   "ProcessHub": {
-    "title": "私たちの工場は単なる生産施設ではなく、創造性と職人技が融合する拠点です。",
+    "title": "創造性と職人技の融合拠点",
     "description": "熱意あるチームが、お客様のコンセプトを形にする過程をご覧ください。",
     "ctaButton": "プロセスを探る",
     "backgroundAlt": "保護具を着用した工場作業員"
@@ -64,7 +64,7 @@
       "description": "仕様、構造の詳細、希望の材料、プロジェクト予算など、お客様の要件を慎重に評価します。お客様のビジョンを最優先し、すべての期待に応える最適なソリューションを提供します。"
     },
     "step2": {
-      "title": "最適なソリューションのための価値工学",
+      "title": "バリューエンジニアリング",
       "description": "単なる製品製造にとどまりません。私たちの緻密な価値工学により、過去のプロジェクトでは最大20%のコスト削減を実現。革新性とコスト効率を融合させ、アイデアを現実のものにします。"
     },
     "step3": {
@@ -115,6 +115,6 @@
     "distributionPartners": "販売パートナー",
     "volumeDiscounts": "数量割引",
     "wholesaleInquiries": "卸売のお問い合わせ",
-    "allRightsReserved": "All rights reserved."
+    "allRightsReserved": "全著作権所有"
   }
 }
