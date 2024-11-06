@@ -28,6 +28,7 @@
     "react-image-lightbox-rotation": "5.1.4-rotate",
     "react-intersection-observer": "^9.13.1",
     "react-responsive": "^10.0.0",
+    "sonner": "^1.7.0",
     "tailwind-merge": "^2.5.3",
     "zustand": "5.0.0-rc.2"
   },
