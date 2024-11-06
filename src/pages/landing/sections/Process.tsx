@@ -54,6 +54,7 @@ function Process() {
     visible: { opacity: 1, y: 0 },
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const typingVariants = {
     hidden: { width: 0 },
     visible: {
@@ -62,6 +63,21 @@ function Process() {
         type: "tween",
         duration: 1,
         ease: "easeInOut",
+      },
+    },
+  };
+
+  const typingDescriptionVariants = {
+    hidden: {
+      width: 0,
+      opacity: 0,
+    },
+    visible: {
+      width: "100%",
+      opacity: 1,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut",
       },
     },
   };
@@ -135,6 +151,7 @@ function Process() {
                 transition={{ duration: 0.5 }}
                 className="relative rounded-lg shadow-lg cursor-pointer aspect-square group"
               >
+                {/* Background image and initial content */}
                 <div className="absolute inset-0 z-10">
                   <Image
                     src={`https://res.cloudinary.com/ad-fixtures/image/upload/v1729792459/ad-fixtures/factory/process_${step.number}.jpg`}
@@ -143,31 +160,36 @@ function Process() {
                     objectFit="cover"
                     className="rounded-lg"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg" />
-                  <div className="absolute inset-0 z-20 w-full h-full flex flex-col items-start justify-end p-4">
-                    <motion.h3
-                      className="text-[48px] font-bold text-white overflow-hidden whitespace-nowrap"
-                      initial="hidden"
-                      animate="visible"
-                      variants={typingVariants}
-                    >
-                      {step.number}
-                    </motion.h3>
-                    <motion.p
-                      className="text-[16px] font-semibold text-white overflow-hidden whitespace-nowrap"
-                      initial="hidden"
-                      animate="visible"
-                      variants={typingVariants}
-                    >
-                      {step.title}
-                    </motion.p>
-                  </div>
-                </div>
+                  <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg group-hover:bg-opacity-80 transition-all duration-300" />
 
-                <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20 rounded-lg">
-                  <h3 className="text-[128px] font-bold text-red-600">
-                    {step.number}
-                  </h3>
+                  {/* Initial view (number and title) */}
+                  <div className="absolute inset-0 z-20 w-full h-full flex flex-col items-start justify-end p-4 group-hover:opacity-0 transition-opacity duration-300">
+                    <h3 className="text-[48px] font-bold text-white">
+                      {step.number}
+                    </h3>
+                    <p className="text-[16px] font-semibold text-white">
+                      {step.title}
+                    </p>
+                  </div>
+
+                  {/* Hover content */}
+                  <motion.div
+                    className="absolute inset-0 z-30 p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    initial="hidden"
+                    whileHover="visible"
+                  >
+                    <h3 className="text-xl font-bold text-white mb-4">
+                      {step.title}
+                    </h3>
+                    <motion.div
+                      className="overflow-hidden"
+                      variants={typingDescriptionVariants}
+                    >
+                      <p className="text-white text-sm leading-relaxed text-justify">
+                        {step.description}
+                      </p>
+                    </motion.div>
+                  </motion.div>
                 </div>
               </motion.div>
             ))}
