@@ -89,7 +89,17 @@
     "title": "共に無限の可能性を探求しましょう",
     "description": "メールアドレスをご記入ください。お電話でのご相談日程を調整し、協力の可能性についてご説明させていただきます。",
     "emailPlaceholder": "メールアドレスを入力",
-    "subscribeButton": "お問い合わせ"
+    "subscribeButton": "お問い合わせ",
+    "sending": "送信中...",
+    "successMessage": "ありがとうございます！追ってご連絡させていただきます。",
+    "errorMessage": "申し訳ありません。エラーが発生しました。もう一度お試しください。",
+    "confirmSubscription": "購読の確認",
+    "confirmEmailMessage": "以下のメールアドレスで購読します：",
+    "questionLabel": "ご質問はありますか？",
+    "questionPlaceholder": "ここにご質問を入力してください（任意）",
+    "wantsCallLabel": "お電話での相談を希望する",
+    "cancel": "キャンセル",
+    "submit": "送信"
   },
   "Footer": {
     "companyName": "AD Fixtures株式会社",

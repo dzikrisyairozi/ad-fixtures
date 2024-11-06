@@ -89,7 +89,17 @@
     "title": "Explore Endless Possibilities Together",
     "description": "Leave your email below, and we'll reach out to schedule a call and explore how we can work together.",
     "emailPlaceholder": "Enter your email",
-    "subscribeButton": "Get in Touch"
+    "subscribeButton": "Get in Touch",
+    "sending": "Sending...",
+    "successMessage": "Thank you! We'll be in touch soon.",
+    "errorMessage": "Sorry, something went wrong. Please try again.",
+    "confirmSubscription": "Confirm Subscription",
+    "confirmEmailMessage": "You are subscribing with the email:",
+    "questionLabel": "Do you have any questions?",
+    "questionPlaceholder": "Type your question here (optional)",
+    "wantsCallLabel": "I would like to schedule a call",
+    "cancel": "Cancel",
+    "submit": "Submit"
   },
   "Footer": {
     "companyName": "AD Fixtures Inc.",
