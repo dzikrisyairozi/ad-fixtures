@@ -89,7 +89,17 @@
     "title": "一起探索无限可能",
     "description": "请留下您的邮箱，我们将安排通话时间，共同探讨合作机会。",
     "emailPlaceholder": "输入您的电子邮箱",
-    "subscribeButton": "联系我们"
+    "subscribeButton": "联系我们",
+    "sending": "发送中...",
+    "successMessage": "谢谢！我们将尽快与您联系。",
+    "errorMessage": "抱歉，出现错误。请重试。",
+    "confirmSubscription": "确认订阅",
+    "confirmEmailMessage": "您将使用以下邮箱订阅：",
+    "questionLabel": "您有任何问题吗？",
+    "questionPlaceholder": "在此输入您的问题（选填）",
+    "wantsCallLabel": "我希望安排通话",
+    "cancel": "取消",
+    "submit": "提交"
   },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
