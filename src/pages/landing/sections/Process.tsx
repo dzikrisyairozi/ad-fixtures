@@ -91,7 +91,7 @@ function Process() {
       className="relative py-20 overflow-hidden h-[60vh] md:h-screen flex items-center"
     >
       {/* Low opacity background image covering the entire section */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 bg-gray-200/50">
         <Image
           src="https://res.cloudinary.com/ad-fixtures/image/upload/ad-fixtures/factory/process3.jpg"
           alt="Background"
@@ -117,7 +117,7 @@ function Process() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          className="text-4xl md:text-5xl font-extrabold text-white mb-4 uppercase text-center md:text-left"
+          className="text-4xl md:text-5xl font-extrabold text-black mb-4 uppercase text-center md:text-left"
         >
           {t("title")}
         </motion.h2>
@@ -125,7 +125,7 @@ function Process() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-lg md:text-xl text-gray-200 mb-10 text-center md:text-left md:w-1/2"
+          className="text-lg md:text-xl text-gray-600 mb-10 text-center md:text-left md:w-1/2"
         >
           {t("description")}
         </motion.p>
