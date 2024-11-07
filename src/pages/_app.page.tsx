@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
       messages={pageProps.messages}
     >
       <SonnerToaster />
-      <Component {...pageProps} />
+      <Component {...pageProps} locale={locale}/>
     </NextIntlClientProvider>
   );
 }
