@@ -174,18 +174,18 @@ function Process() {
 
                   {/* Hover content */}
                   <motion.div
-                    className="absolute inset-0 z-30 p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    className="overflow-y-auto overflow-x-none absolute inset-0 z-30 p-4 md:p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col"
                     initial="hidden"
                     whileHover="visible"
                   >
-                    <h3 className="text-xl font-bold text-white mb-4">
+                    <h3 className="text-lg md:text-xl font-bold text-white mb-2 md:mb-4">
                       {step.title}
                     </h3>
                     <motion.div
-                      className="overflow-hidden"
+                      className="flex-1"
                       variants={typingDescriptionVariants}
                     >
-                      <p className="text-white text-sm leading-relaxed text-justify">
+                      <p className="text-white text-xs lg:text-sm leading-relaxed">
                         {step.description}
                       </p>
                     </motion.div>
