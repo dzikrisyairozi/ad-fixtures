@@ -1,130 +1,130 @@
 {
   "header": {
-    "about": "关于",
-    "solution": "解决方案",
-    "contactUs": "联系我们"
+    "about": "關於",
+    "solution": "解決方案",
+    "contactUs": "聯繫我們"
   },
   "Index": {
     "companyName": "AD Fixtures 雅思股份有限公司",
-    "factoryImageAlt": "工厂图片 {number}",
-    "slogan": "我们以精密工程打造定制零售设备，提供专业见解，从项目开始到结束进行全程优化。我们的目标很简单：为您的品牌创造最大价值和影响力。",
+    "factoryImageAlt": "工廠圖片 {number}",
+    "slogan": "我們以精密工程打造定制零售設備，提供專業見解，從項目開始到結束進行全程優化。我們的目標很簡單：為您的品牌創造最大價值和影響力。",
     "knowUS": "了解雅思"
   },
   "About": {
-    "headerTitle": "超越制造—精密工程与创新的合作伙伴",
-    "yearExperience": "办公室、工厂和仓库总面积（平方米）",
-    "countrySpread": "领先品牌的信赖",
-    "furnitureSold": "年行业经验",
-    "variantFurniture": "家零售店铺完工",
-    "industrialExperienceTitle": "工业经验",
-    "industrialExperienceDescription": "凭借20年的经验，我们提供定制解决方案，优化您的制造流程，在确保产品高品质的同时，降低成本并缩短交货周期。",
-    "industrialExperienceImageAlt": "工业经验图片",
-    "oneStopServiceTitle": "一站式服务",
-    "oneStopServiceDescription": "通过我们的卫星供应链，即使不拥有所有生产线，我们也能提供无缝的一站式制造服务。这一战略是缩短交货周期、确保更快交付的关键。",
-    "oneStopServiceImage1Alt": "一站式服务图片1",
-    "oneStopServiceImage2Alt": "一站式服务图片2"
+    "headerTitle": "超越製造—精密工程與創新的合作夥伴",
+    "yearExperience": "辦公室、工廠和倉庫總面積（平方米）",
+    "countrySpread": "領先品牌的信賴",
+    "furnitureSold": "年行業經驗",
+    "variantFurniture": "家零售店鋪完工",
+    "industrialExperienceTitle": "工業經驗",
+    "industrialExperienceDescription": "憑藉20年的經驗，我們提供定制解決方案，優化您的製造流程，在確保產品高品質的同時，降低成本並縮短交貨週期。",
+    "industrialExperienceImageAlt": "工業經驗圖片",
+    "oneStopServiceTitle": "一站式服務",
+    "oneStopServiceDescription": "通過我們的衛星供應鏈，即使不擁有所有生產線，我們也能提供無縫的一站式製造服務。這一戰略是縮短交貨週期、確保更快交付的關鍵。",
+    "oneStopServiceImage1Alt": "一站式服務圖片1",
+    "oneStopServiceImage2Alt": "一站式服務圖片2"
   },
   "AdFixtures": {
-    "backgroundImageAlt": "AD Fixtures 工厂",
-    "title": "将您的想法转化为有效解决方案的地方",
-    "description": "在 AD Fixtures，我们通过先进的制造能力和创新的设计解决方案，将您的愿景变为现实。"
+    "backgroundImageAlt": "AD Fixtures 工廠",
+    "title": "將您的想法轉化為有效解決方案的地方",
+    "description": "在 AD Fixtures，我們通過先進的製造能力和創新的設計解決方案，將您的願景變為現實。"
   },
   "Capability": {
-    "title_metal": "金属",
-    "description_metal": "在我们最先进的金属工厂，我们将原材料转化为定制解决方案，完全符合您的独特需求。",
-    "imageAlt_metal": "带有金属家具的现代客厅",
+    "title_metal": "金屬",
+    "description_metal": "在我們最先進的金屬工廠，我們將原材料轉化為定制解決方案，完全符合您的獨特需求。",
+    "imageAlt_metal": "帶有金屬家具的現代客廳",
     "title_millwork": "木工",
-    "description_millwork": "在我们先进的木工设施中，我们将原木打造成精美的定制作品，旨在提升任何空间的品质。",
-    "imageAlt_millwork": "带有定制木工的现代室内",
-    "title_powder": "粉末涂装",
-    "description_powder": "在我们尖端的粉末涂装设施中，我们为金属表面提供持久、鲜艳的涂层，确保持久的品质。",
-    "imageAlt_powder": "粉末涂装的金属家具",
-    "clickImageToSeeMore": "点击图片查看更多"
+    "description_millwork": "在我們先進的木工設施中，我們將原木打造成精美的定制作品，旨在提升任何空間的品質。",
+    "imageAlt_millwork": "帶有定制木工的現代室內",
+    "title_powder": "粉末塗裝",
+    "description_powder": "在我們尖端的粉末塗裝設施中，我們為金屬表面提供持久、鮮豔的塗層，確保持久的品質。",
+    "imageAlt_powder": "粉末塗裝的金屬家具",
+    "clickImageToSeeMore": "點擊圖片查看更多"
   },
   "WeAreCapable": {
-    "title": "我们的专业能力",
-    "versatileSolutionTitle": "多样化解决方案",
-    "versatileSolutionSubtitle": "多样材料解决方案",
-    "versatileSolutionDescription": "我们的专业知识不仅限于金属和木材，能够根据您的项目需求采购广泛的材料。",
-    "valueEngineeringTitle": "价值工程",
-    "valueEngineeringDescription": "通过价值工程将概念转化为现实，为客户提供高品质且价格合理的产品。"
+    "title": "我們的專業能力",
+    "versatileSolutionTitle": "多樣化解決方案",
+    "versatileSolutionSubtitle": "多樣材料解決方案",
+    "versatileSolutionDescription": "我們的專業知識不僅限於金屬和木材，能夠根據您的項目需求採購廣泛的材料。",
+    "valueEngineeringTitle": "價值工程",
+    "valueEngineeringDescription": "通過價值工程將概念轉化為現實，為客戶提供高品質且價格合理的產品。"
   },
   "ProcessHub": {
-    "title": "创意与工艺的融合中心",
-    "description": "探索我们专业团队如何协作，将您的构想变为现实。",
-    "ctaButton": "探索我们的流程",
-    "backgroundAlt": "穿着防护装备的工厂工人"
+    "title": "創意與工藝的融合中心",
+    "description": "探索我們專業團隊如何協作，將您的構想變為現實。",
+    "ctaButton": "探索我們的流程",
+    "backgroundAlt": "穿著防護裝備的工廠工人"
   },
   "Process": {
-    "title": "让创意成真",
-    "description": "我们的专业团队将您的愿景转化为实体原型，让概念变为现实。",
-    "backgroundAlt": "工厂流程图片",
+    "title": "讓創意成真",
+    "description": "我們的專業團隊將您的願景轉化為實體原型，讓概念變為現實。",
+    "backgroundAlt": "工廠流程圖片",
     "step1": {
       "title": "深入理解需求",
-      "description": "我们从评估您的需求开始：规格、施工细节、首选材料和项目预算。您的愿景是我们的首要任务，我们致力于打造满足您所有期望的定制解决方案。"
+      "description": "我們從評估您的需求開始：規格、施工細節、首選材料和項目預算。您的願景是我們的首要任務，我們致力於打造滿足您所有期望的定制解決方案。"
     },
     "step2": {
-      "title": "价值工程",
-      "description": "我们不仅仅是生产产品；我们精密的价值工程帮助客户在过往项目中节省高达20%的成本。我们将您的想法转化为现实，完美融合创新与成本效益。"
+      "title": "價值工程",
+      "description": "我們不僅僅是生產產品；我們精密的價值工程幫助客戶在過往項目中節省高達20%的成本。我們將您的想法轉化為現實，完美融合創新與成本效益。"
     },
     "step3": {
-      "title": "精准生产",
-      "description": "我们提供一流的品质和精确的交货期。在任何产品离开我们的工厂之前，都会经过严格的质量检查，确保超越您的期望。"
+      "title": "精準生產",
+      "description": "我們提供一流的品質和精確的交貨期。在任何產品離開我們的工廠之前，會經過嚴格的質量檢查，確保超越您的期望。"
     },
     "step4": {
-      "title": "超越产品的伙伴关系",
-      "description": "我们致力于与客户建立持久的合作关系。我们的承诺不仅限于产品销售；我们将全程助力您取得成功。"
+      "title": "超越產品的夥伴關係",
+      "description": "我們致力於與客戶建立持久的合作關係。我們的承諾不僅限於產品銷售；我們將全程助力您取得成功。"
     }
   },
   "WorksPortfolio": {
-    "skechersDescription": "十多年来，我们与SKECHERS保持合作伙伴关系，通过提供定制化制造服务，包括提升顾客体验的定制陈列设备，成功开设近60家店铺。",
-    "ispoDescription": "我们的免工具组装解决方案实现快速高效的陈列设备安装，简化店铺开业流程，提升运营效率。",
-    "hokaDescription": "我们为HOKA店铺打造充满活力的彩色陈列设备，配合易于移动的展示架，为产品提供灵活多样的展示方案。",
-    "bvlgariDescription": "与GJ装饰合作，我们承担了台湾BVLGARI店铺外墙的重建工程，提升视觉吸引力，彰显品牌奢华形象。",
-    "bmaDescription": "为支持BMA国际在阿联酋的发展，我们为其三个品牌制造陈列设备，成功开设150家店铺，提升市场影响力，吸引更多顾客。",
-    "aldoDescription": "与ALDO合作三代店铺陈列设备，我们以创新设计满足其不断发展的需求，为其持续成功做出贡献而感到自豪。"
+    "skechersDescription": "十多年來，我們與SKECHERS保持合作夥伴關係，通過提供定制化製造服務，包括提升顧客體驗的定制陳列設備，成功開設近60家店鋪。",
+    "ispoDescription": "我們的免工具組裝解決方案實現快速高效的陳列設備安裝，簡化店鋪開業流程，提升運營效率。",
+    "hokaDescription": "我們為HOKA店鋪打造充滿活力的彩色陳列設備，配合易於移動的展示架，為產品提供靈活多樣的展示方案。",
+    "bvlgariDescription": "與GJ裝飾合作，我們承擔了台灣BVLGARI店鋪外牆的重建工程，提升視覺吸引力，彰顯品牌奢華形象。",
+    "bmaDescription": "為支持BMA國際在阿聯酋的發展，我們為其三個品牌製造陳列設備，成功開設150家店鋪，提升市場影響力，吸引更多顧客。",
+    "aldoDescription": "與ALDO合作三代店鋪陳列設備，我們以創新設計滿足其不斷發展的需求，為其持續成功做出貢獻而感到自豪。"
   },
   "CallToActions": {
-    "backgroundImageAlt": "工厂内部",
-    "title": "一起探索无限可能",
-    "description": "请留下您的邮箱，我们将安排通话时间，共同探讨合作机会。",
-    "emailPlaceholder": "输入您的电子邮箱",
-    "subscribeButton": "联系我们",
-    "sending": "发送中...",
-    "successMessage": "谢谢！我们将尽快与您联系。",
-    "errorMessage": "抱歉，出现错误。请重试。",
-    "confirmSubscription": "确认联系方式",
-    "confirmEmailMessage": "我们将通过以下邮箱联系您：",
-    "questionLabel": "您有任何问题吗？",
-    "questionPlaceholder": "在此输入您的问题（选填）",
-    "wantsCallLabel": "我希望安排通话",
+    "backgroundImageAlt": "工廠內部",
+    "title": "一起探索無限可能",
+    "description": "請留下您的郵箱，我們將安排通話時間，共同探討合作機會。",
+    "emailPlaceholder": "輸入您的電子郵箱",
+    "subscribeButton": "聯繫我們",
+    "sending": "發送中...",
+    "successMessage": "謝謝！我們將盡快與您聯繫。",
+    "errorMessage": "抱歉，出現錯誤。請重試。",
+    "confirmSubscription": "確認聯繫方式",
+    "confirmEmailMessage": "我們將通過以下郵箱聯繫您：",
+    "questionLabel": "您有任何問題嗎？",
+    "questionPlaceholder": "在此輸入您的問題（選填）",
+    "wantsCallLabel": "我希望安排通話",
     "cancel": "取消",
     "submit": "提交"
   },
   "Footer": {
     "companyName": "AD Fixtures 股份有限公司",
-    "address": "台湾台中市太平区建功街68号 411034",
-    "discoverUs": "了解我们",
-    "ourStory": "我们的故事",
-    "brandPartners": "品牌合作伙伴",
+    "address": "台灣台中市太平區建功街68號 411034",
+    "discoverUs": "了解我們",
+    "ourStory": "我們的故事",
+    "brandPartners": "品牌合作夥伴",
     "blog": "博客",
-    "giftVoucher": "礼品券",
-    "customerServices": "客户服务",
-    "contactUs": "联系我们",
-    "faqs": "常见问题",
+    "giftVoucher": "禮品券",
+    "customerServices": "客戶服務",
+    "contactUs": "聯繫我們",
+    "faqs": "常見問題",
     "warranty": "保修",
-    "ourGuarantee": "我们的保证",
-    "returnPolicy": "退货政策",
+    "ourGuarantee": "我們的保證",
+    "returnPolicy": "退貨政策",
     "legal": "法律信息",
-    "termsOfService": "服务条款",
-    "termsAndConditions": "条款和条件",
-    "termsOfWebsiteUse": "网站使用条款",
-    "privacyPolicy": "隐私政策",
-    "accessibilityStatement": "无障碍声明",
-    "commercial": "商业合作",
-    "distributionPartners": "分销合作伙伴",
+    "termsOfService": "服務條款",
+    "termsAndConditions": "條款和條件",
+    "termsOfWebsiteUse": "網站使用條款",
+    "privacyPolicy": "隱私政策",
+    "accessibilityStatement": "無障礙聲明",
+    "commercial": "商業合作",
+    "distributionPartners": "分銷合作夥伴",
     "volumeDiscounts": "批量折扣",
-    "wholesaleInquiries": "批发咨询",
-    "allRightsReserved": "版权所有。"
+    "wholesaleInquiries": "批發諮詢",
+    "allRightsReserved": "版權所有。"
   }
 }
