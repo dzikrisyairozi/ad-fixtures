@@ -20,38 +20,38 @@
     "industrialExperienceDescription": "憑藉20年的經驗，我們提供定制解決方案，優化您的製造流程，在確保產品高品質的同時，降低成本並縮短交貨週期。",
     "industrialExperienceImageAlt": "工業經驗圖片",
     "oneStopServiceTitle": "一站式服務",
-    "oneStopServiceDescription": "通過我們的衛星供應鏈，即使不擁有所有生產線，我們也能提供無縫的一站式製造服務。這一戰略是縮短交貨週期、確保更快交付的關鍵。",
+    "oneStopServiceDescription": "我們靈活又全方位的供應鏈模式,即使不擁有完整的生產線,也能提供全程一站式製造服務。透過這種密切的合作關係,我們得以縮短客戶的交貨週期,實現交貨更快速。",
     "oneStopServiceImage1Alt": "一站式服務圖片1",
     "oneStopServiceImage2Alt": "一站式服務圖片2"
   },
   "AdFixtures": {
     "backgroundImageAlt": "AD Fixtures 工廠",
-    "title": "將您的想法轉化為有效解決方案的地方",
+    "title": "將您的想法轉化為現實",
     "description": "在 AD Fixtures，我們通過先進的製造能力和創新的設計解決方案，將您的願景變為現實。"
   },
   "Capability": {
     "title_metal": "金屬",
-    "description_metal": "在我們最先進的金屬工廠，我們將原材料轉化為定制解決方案，完全符合您的獨特需求。",
+    "description_metal": "[金屬]: 我們先進的鐵工廠,善於為每位顧客制定解決方案,能製作出任何您期望的金屬客製化產品。",
     "imageAlt_metal": "帶有金屬家具的現代客廳",
     "title_millwork": "木工",
-    "description_millwork": "在我們先進的木工設施中，我們將原木打造成精美的定制作品，旨在提升任何空間的品質。",
+    "description_millwork": "我們配合高品質的木工廠,將原木裁切成精美的客製化規格,旨在提升您產品的質感以及店鋪的形象。",
     "imageAlt_millwork": "帶有定制木工的現代室內",
-    "title_powder": "粉末塗裝",
-    "description_powder": "在我們尖端的粉末塗裝設施中，我們為金屬表面提供持久、鮮豔的塗層，確保持久的品質。",
+    "title_powder": "粉體烤漆",
+    "description_powder": "我們尖端的粉體烤漆工廠提供金屬表面更持久、鮮豔的烤漆,並確保品質與漆體的持久度。",
     "imageAlt_powder": "粉末塗裝的金屬家具",
     "clickImageToSeeMore": "點擊圖片查看更多"
   },
   "WeAreCapable": {
     "title": "我們的專業能力",
-    "versatileSolutionTitle": "多樣化解決方案",
+    "versatileSolutionTitle": "多樣化解決方案", 
     "versatileSolutionSubtitle": "多樣材料解決方案",
-    "versatileSolutionDescription": "我們的專業知識不僅限於金屬和木材，能夠根據您的項目需求採購廣泛的材料。",
+    "versatileSolutionDescription": "我們的專業知識不僅限於鐵與木,能根據您專案的需求進行異材質的整合及生產。",
     "valueEngineeringTitle": "價值工程",
     "valueEngineeringDescription": "通過價值工程將概念轉化為現實，為客戶提供高品質且價格合理的產品。"
   },
   "ProcessHub": {
-    "title": "創意與工藝的融合中心",
-    "description": "探索我們專業團隊如何協作，將您的構想變為現實。",
+    "title": "創意與工藝的結合",
+    "description": "我們團隊致力於將您的構想轉化為現實。",
     "ctaButton": "探索我們的流程",
     "backgroundAlt": "穿著防護裝備的工廠工人"
   },
@@ -61,28 +61,28 @@
     "backgroundAlt": "工廠流程圖片",
     "step1": {
       "title": "深入理解需求",
-      "description": "我們從評估您的需求開始：規格、施工細節、首選材料和項目預算。您的願景是我們的首要任務，我們致力於打造滿足您所有期望的定制解決方案。"
+      "description": "首先會評估您需求的規格、施工細節、希望的材料、以及預算,將您的品牌願景視為我們的首要任務。我們致力打造滿足您所有需求的客製化產品"
     },
     "step2": {
       "title": "價值工程",
       "description": "我們不僅僅是生產產品；我們精密的價值工程幫助客戶在過往項目中節省高達20%的成本。我們將您的想法轉化為現實，完美融合創新與成本效益。"
     },
     "step3": {
-      "title": "精準生產",
-      "description": "我們提供一流的品質和精確的交貨期。在任何產品離開我們的工廠之前，會經過嚴格的質量檢查，確保超越您的期望。"
+      "title": "高品質生產",
+      "description": "我們提供一流的品質並完美達成交貨期。出貨前所有產品都會經過嚴格的檢查,確保品質符合、甚至超越您的期待。"
     },
     "step4": {
-      "title": "超越產品的夥伴關係",
-      "description": "我們致力於與客戶建立持久的合作關係。我們的承諾不僅限於產品銷售；我們將全程助力您取得成功。"
+      "title": "穩定且長期的夥伴關係",
+      "description": "我們致力與客戶建立長遠的合作關係。我們不只是販售產品,更協助您的品牌邁向成功。"
     }
   },
   "WorksPortfolio": {
-    "skechersDescription": "十多年來，我們與SKECHERS保持合作夥伴關係，通過提供定制化製造服務，包括提升顧客體驗的定制陳列設備，成功開設近60家店鋪。",
-    "ispoDescription": "我們的免工具組裝解決方案實現快速高效的陳列設備安裝，簡化店鋪開業流程，提升運營效率。",
-    "hokaDescription": "我們為HOKA店鋪打造充滿活力的彩色陳列設備，配合易於移動的展示架，為產品提供靈活多樣的展示方案。",
-    "bvlgariDescription": "與GJ裝飾合作，我們承擔了台灣BVLGARI店鋪外牆的重建工程，提升視覺吸引力，彰顯品牌奢華形象。",
-    "bmaDescription": "為支持BMA國際在阿聯酋的發展，我們為其三個品牌製造陳列設備，成功開設150家店鋪，提升市場影響力，吸引更多顧客。",
-    "aldoDescription": "與ALDO合作三代店鋪陳列設備，我們以創新設計滿足其不斷發展的需求，為其持續成功做出貢獻而感到自豪。"
+    "skechersDescription": "十多年來,我們與SKECHERS保持合作夥伴關係,提供客制化的道具生產服務,不斷的提升顧客的購物體驗,成功開設近60家店鋪。",
+    "ispoDescription": "我們為ISPO+ 解決不須工具即可安裝的設計方案,實現快速又有效率的組裝結構,大幅減少案場安裝道具所耗費的人工與時間,更加快展店速度。",
+    "hokaDescription": "我們為HOKA店面打造色彩充滿活力的展示道具,提供彈性更換位置的設計,為產品提供靈活多樣的展示方案。",
+    "bvlgariDescription": "我們與GJ裝修合作,承攬了台灣BVLGARI一樓廣告外牆的重建工程,提升整體視覺張力,彰顯品牌的奢華形象。",
+    "bmaDescription": "協助BMA集團在阿聯酋地區成功開設150家店舖。我們提供客戶旗下三個品牌的店面道具,讓客人快速的展店,提升國內的市佔率也提升品牌影響力。",
+    "aldoDescription": "我們為ALDO開發了三個世代的店鋪道具,以創新的設計滿足快速變遷的時尚需求,持續在ALDO成功的路上做出貢獻。"
   },
   "CallToActions": {
     "backgroundImageAlt": "工廠內部",
@@ -102,7 +102,7 @@
     "submit": "提交"
   },
   "Footer": {
-    "companyName": "AD Fixtures 股份有限公司",
+    "companyName": "雅思股份有限公司,",
     "address": "台灣台中市太平區建功街68號 411034",
     "discoverUs": "了解我們",
     "ourStory": "我們的故事",

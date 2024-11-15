@@ -33,11 +33,11 @@ const socialLinks = [
   //   href: "https://www.facebook.com/adfixtures.tw",
   //   hoverColor: "hover:text-[#1877F2]",
   // },
-  // {
-  //   icon: FaInstagram,
-  //   href: "https://www.instagram.com/adfixturesinc/",
-  //   hoverColor: "hover:text-[#E4405F]",
-  // },
+  {
+    icon: FaInstagram,
+    href: "https://www.instagram.com/adfixturesinc/",
+    hoverColor: "hover:text-[#E4405F]",
+  },
   // {
   //   icon: FaTwitter,
   //   href: "https://x.com/AD_Fixtures",
@@ -153,7 +153,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <social.icon size={24} />
+                    <social.icon size={36} />
                   </a>
                 ))}
               </div>
