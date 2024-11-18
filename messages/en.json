@@ -50,7 +50,7 @@
     "valueEngineeringDescription": "We turn concepts into reality through value engineering, ensuring high quality at fair prices for our clients."
   },
   "ProcessHub": {
-    "title": "A hub of creativity and craftsmanship",
+    "title": "A hub of creativity and craftsmanship", 
     "description": "Discover how our dedicated team collaborates to bring your concepts to life.",
     "ctaButton": "EXPLORE OUR PROCESS",
     "backgroundAlt": "Factory worker in protective gear"
@@ -87,7 +87,7 @@
   "CallToActions": {
     "backgroundImageAlt": "Factory interior",
     "title": "Explore Endless Possibilities Together",
-    "description": "Leave your email below, and we'll reach out to schedule a call and explore how we can work together.",
+    "description": "Leave your email below, and we'll reach out to explore how we can work together.",
     "emailPlaceholder": "Enter your email",
     "subscribeButton": "Get in Touch",
     "sending": "Sending...",
@@ -102,7 +102,7 @@
     "submit": "Submit"
   },
   "Footer": {
-    "companyName": "AD Fixtures Inc.",
+    "companyName": "AD Fixtures Inc",
     "address": "No.68, Jiangong Street, Taiping District Taichung City 411034, Taiwan",
     "discoverUs": "Discover Us",
     "ourStory": "Our Story",
